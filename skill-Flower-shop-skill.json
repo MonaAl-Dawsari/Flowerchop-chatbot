@@ -1,0 +1,6081 @@
+{
+  "intents": [
+    {
+      "intent": "acquaintance",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "Anniversary",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "associate",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "aunt",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "award",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "b-day",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "bday",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "beau",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "bestie",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "BFF",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "Birthday",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "boyfriend",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "bride",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "bridesmaid",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "brother",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "cancer",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "Christmas",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "coach",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "colleague",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "commencement",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "companion",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "condolences",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "Congratulations",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "couple",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "cousin",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "COVID_Case_Count",
+      "examples": [
+        {
+          "text": "are people infected in my city ?"
+        },
+        {
+          "text": "Are there any cases near me"
+        },
+        {
+          "text": "covid number in my state?"
+        },
+        {
+          "text": "Does MA have a confirmed COVID case?"
+        },
+        {
+          "text": "Does the US have a confirmed COVID case?"
+        },
+        {
+          "text": "has anyone died of coronavirus in my state?"
+        },
+        {
+          "text": "How has coronavirus spread around the world?"
+        },
+        {
+          "text": "how many cases are there in Texas?"
+        },
+        {
+          "text": "How many cases of COVID-19 are in the US?"
+        },
+        {
+          "text": "How many cases of the virus are there in the world?"
+        },
+        {
+          "text": "How many coronavirus cases are there in my area?"
+        },
+        {
+          "text": "how many current cases are there in Illinois"
+        },
+        {
+          "text": "How many folks in Texas are infected?"
+        },
+        {
+          "text": "how many patients are infected with corona virus in collin county"
+        },
+        {
+          "text": "how many people are infected"
+        },
+        {
+          "text": "How many people are infected in Illinois?"
+        },
+        {
+          "text": "How many people are infected with Corona virus currently in texas?"
+        },
+        {
+          "text": "how many people are sick in the US?"
+        },
+        {
+          "text": "How many people are sick throughout the world?"
+        },
+        {
+          "text": "how many people have contracted the virus in pennysylvania"
+        },
+        {
+          "text": "How many people have covid-19 in the whole world?"
+        },
+        {
+          "text": "how many people have the virus?"
+        },
+        {
+          "text": "How many people have the virus in our county"
+        },
+        {
+          "text": "how many people in texas have corona virus?"
+        },
+        {
+          "text": "How many people in the world have died?"
+        },
+        {
+          "text": "How many people total have coronavirus?"
+        },
+        {
+          "text": "how many ppl are infected in the us?"
+        },
+        {
+          "text": "is anyone near me sick"
+        },
+        {
+          "text": "what is the count of coronavirus infected people?"
+        },
+        {
+          "text": "Where are cases?"
+        },
+        {
+          "text": "Where can I find information about covid 19 for the world?"
+        },
+        {
+          "text": "Which countries has covid-19 been detected in?"
+        }
+      ],
+      "description": "Number of cases nearby."
+    },
+    {
+      "intent": "COVID_Cleaning_Disinfecting",
+      "examples": [
+        {
+          "text": "All the stores are out of disinfecting wipes, what do I do?"
+        },
+        {
+          "text": "Are there disinfectants available that can inactivate (kill) COVID-19?"
+        },
+        {
+          "text": "cleaning products"
+        },
+        {
+          "text": "disinfectant products"
+        },
+        {
+          "text": "Does alcohol kill the coronavirus?"
+        },
+        {
+          "text": "Do I have to use bleach to kill coronavirus?"
+        },
+        {
+          "text": "Do I need lysol wipes?"
+        },
+        {
+          "text": "Do I need to disinfect my cell phone when I get home"
+        },
+        {
+          "text": "How do I clean my home properly?"
+        },
+        {
+          "text": "how do i get rid of germs at my home"
+        },
+        {
+          "text": "How often do I need to clean my home to prevent the spread of coronavirus?"
+        },
+        {
+          "text": "How should I wash my clothes if I may have been exposed to COVID-19?"
+        },
+        {
+          "text": "is lysol enough to get rid of covid virus from countertops"
+        },
+        {
+          "text": "mopping products"
+        },
+        {
+          "text": "Should I spray myself or my kids with disinfectant?"
+        },
+        {
+          "text": "What cleaning methods kill the coronavirus?"
+        },
+        {
+          "text": "what cleaning regimen should I follow"
+        },
+        {
+          "text": "What is the best way to clean?"
+        },
+        {
+          "text": "What kind of disinfectant should I use?"
+        },
+        {
+          "text": "Whats the difference between cleaning and disinfecting?"
+        },
+        {
+          "text": "Which surfaces are most important to disinfect?"
+        }
+      ],
+      "description": "How to clean and disinfect."
+    },
+    {
+      "intent": "COVID_Comparing_Illness",
+      "examples": [
+        {
+          "text": "Flu vs Coronavirus"
+        },
+        {
+          "text": "flu vs covid19"
+        },
+        {
+          "text": "Flu vs. COVID-19"
+        },
+        {
+          "text": "how does cover-19 compare to the SARS epidemic?"
+        },
+        {
+          "text": "How do flu symptoms differ from coronavirus symptoms?"
+        },
+        {
+          "text": "How is corona virus different than SARS?"
+        },
+        {
+          "text": "How is flu different from coronavirus"
+        },
+        {
+          "text": "how is the flue different from the coronavirus?"
+        },
+        {
+          "text": "How's the flu different from coronavirus?"
+        },
+        {
+          "text": "is covid the same as the flu?"
+        },
+        {
+          "text": "Is the coronavirus the same as a cold?"
+        },
+        {
+          "text": "Is the coronavirus the same as MERS?"
+        },
+        {
+          "text": "Is the coronavirus the same as SARS?"
+        },
+        {
+          "text": "is this the same as the flu?"
+        },
+        {
+          "text": "is this worse than flu"
+        },
+        {
+          "text": "is this worse than flue"
+        },
+        {
+          "text": "Is this worse than the flu?"
+        },
+        {
+          "text": "SARS vs Corona virus?"
+        },
+        {
+          "text": "What is different between flu and coronavirus"
+        },
+        {
+          "text": "What is the difference between COVID-19 and the flu"
+        },
+        {
+          "text": "what is the difference between flu and coronavirus"
+        },
+        {
+          "text": "what is the difference between the flu and coronavirus"
+        },
+        {
+          "text": "What's the difference between flu and coronavirus"
+        },
+        {
+          "text": "What's the difference between flu and coronavirus?"
+        },
+        {
+          "text": "what's the difference between the flu and coronavirus"
+        }
+      ],
+      "description": "Comparing Covid to other illnesses."
+    },
+    {
+      "intent": "COVID_School_shutdown",
+      "examples": [
+        {
+          "text": "ARE COLLEGES OPEN"
+        },
+        {
+          "text": "Are my children's schools closed?"
+        },
+        {
+          "text": "Are my schools closed"
+        },
+        {
+          "text": "are my schools closed?"
+        },
+        {
+          "text": "are schools closed"
+        },
+        {
+          "text": "are schools closed ?"
+        },
+        {
+          "text": "are schools closed?"
+        },
+        {
+          "text": "are schools closed in my area"
+        },
+        {
+          "text": "are schools in my area closed"
+        },
+        {
+          "text": "are schools open"
+        },
+        {
+          "text": "Are schools open?"
+        },
+        {
+          "text": "Are schools shut down?"
+        },
+        {
+          "text": "Can my child go to school?"
+        },
+        {
+          "text": "can my kids return to high school"
+        },
+        {
+          "text": "How can I get the latest news on my school closure?"
+        },
+        {
+          "text": "How will the shutdown impact my child's attendance records?"
+        },
+        {
+          "text": "I live in 78709. when will my kids high school reopen?"
+        },
+        {
+          "text": "Is graduation delayed?"
+        },
+        {
+          "text": "Is HS 123 open?"
+        },
+        {
+          "text": "is my kids school closed"
+        },
+        {
+          "text": "Is my kids school closed?"
+        },
+        {
+          "text": "is my school closed"
+        },
+        {
+          "text": "Is my school closed?"
+        },
+        {
+          "text": "is the school closed"
+        },
+        {
+          "text": "Should my child stay home from school?"
+        },
+        {
+          "text": "What does the ordered school closure mean for report cards?"
+        },
+        {
+          "text": "What happens after the ordered three-week closure period ends?"
+        },
+        {
+          "text": "what schools are closed"
+        },
+        {
+          "text": "When can I return to school?"
+        },
+        {
+          "text": "when can i send my kids back to school"
+        },
+        {
+          "text": "when can kid go back to school"
+        },
+        {
+          "text": "when can kids return to school"
+        },
+        {
+          "text": "when can my high school senior go back to school"
+        },
+        {
+          "text": "when can my kid go back school"
+        },
+        {
+          "text": "When can my kid go back to college"
+        },
+        {
+          "text": "when can my kid go back to high school"
+        },
+        {
+          "text": "when can my kid go back to school"
+        },
+        {
+          "text": "when can my kids back school"
+        },
+        {
+          "text": "when can my kids go back to college?"
+        },
+        {
+          "text": "when can my kids go back to high school in 78712"
+        },
+        {
+          "text": "when can my kids go back to school"
+        },
+        {
+          "text": "When does covid vacation end?"
+        },
+        {
+          "text": "when do the children go back to school"
+        },
+        {
+          "text": "When is school back in session?"
+        },
+        {
+          "text": "When will my good go back to school?"
+        },
+        {
+          "text": "When will my kids be back in school?"
+        },
+        {
+          "text": "when will my kids school reopen"
+        },
+        {
+          "text": "When will schools close?"
+        },
+        {
+          "text": "When will the schools open?"
+        },
+        {
+          "text": "where can my kids go back to school"
+        },
+        {
+          "text": "Which schools are closed?"
+        },
+        {
+          "text": "Will classes be moved to summer?"
+        },
+        {
+          "text": "Will graduations be pushed back?"
+        },
+        {
+          "text": "Will students still graduate this year?"
+        },
+        {
+          "text": "Will there be exams in the summer?"
+        },
+        {
+          "text": "Will there be school in the summer?"
+        }
+      ],
+      "description": "Information on school shutdowns."
+    },
+    {
+      "intent": "COVID_See_Doctor",
+      "examples": [
+        {
+          "text": "can I go to the hospital?"
+        },
+        {
+          "text": "Do I have to go to the hospital if I get COVID"
+        },
+        {
+          "text": "how do i know whether to go to the doctor?"
+        },
+        {
+          "text": "I am coughing.  Should I call my doctor?"
+        },
+        {
+          "text": "If I think I have COVID-19, should I see my Dr?"
+        },
+        {
+          "text": "I have a cough but am breathing fine, should I go to the hospital or wait?"
+        },
+        {
+          "text": "i have a fever. should i go to the hospital?"
+        },
+        {
+          "text": "I'm coughing, should I go to the doctor?"
+        },
+        {
+          "text": "I suspect I have the virus who can I call?"
+        },
+        {
+          "text": "should i go to the doctor now"
+        },
+        {
+          "text": "should i go to the ER if i have a cough"
+        },
+        {
+          "text": "Should I go to the hospital"
+        },
+        {
+          "text": "Should I make an appointment with my Dr?"
+        },
+        {
+          "text": "Should I see a doctor if I am not feeling well?"
+        },
+        {
+          "text": "Should I see a doctor if I am showing the symptoms?"
+        },
+        {
+          "text": "when did I need to call the doctor?"
+        },
+        {
+          "text": "When do i call a doctor"
+        },
+        {
+          "text": "when should I call a doctor"
+        },
+        {
+          "text": "when should I go to a doctor?"
+        },
+        {
+          "text": "When should I go to the doctor?"
+        },
+        {
+          "text": "When should I go to the hospital?"
+        },
+        {
+          "text": "Where should I go if I suspect I have coronavirus?"
+        },
+        {
+          "text": "Who should I call if I have symptoms?"
+        }
+      ],
+      "description": "Asking if it is possible to see a doctor."
+    },
+    {
+      "intent": "COVID_Shopping_Groceries",
+      "examples": [
+        {
+          "text": "Am I allowed to go to the grocery store?"
+        },
+        {
+          "text": "are grocery stores still open"
+        },
+        {
+          "text": "can I go to grocery stores"
+        },
+        {
+          "text": "can i go to the grocery store"
+        },
+        {
+          "text": "Can I go to the grocery store?"
+        },
+        {
+          "text": "can I go to the grocery store or will I catch corona"
+        },
+        {
+          "text": "can i go to the store."
+        },
+        {
+          "text": "can I still go grocery shopping"
+        },
+        {
+          "text": "Can I still go to the grocery store?"
+        },
+        {
+          "text": "can we go to the store?"
+        },
+        {
+          "text": "How should I get groceries?"
+        },
+        {
+          "text": "I am in a high risk group. Can I buy my own food and medicine?"
+        },
+        {
+          "text": "I need medicine. Can I go to the store?"
+        },
+        {
+          "text": "Is it okay to go grocery shopping?"
+        },
+        {
+          "text": "is it ok for me to go to the grocery store"
+        },
+        {
+          "text": "Is it risky to buy food at the store?"
+        },
+        {
+          "text": "Is it safe to go out to buy food and staples?"
+        },
+        {
+          "text": "Is it safe to go to Costco?"
+        },
+        {
+          "text": "Is it safe to go to the grocery store?"
+        },
+        {
+          "text": "what grocery store in keller is open?"
+        }
+      ],
+      "description": "Status of grocery stores."
+    },
+    {
+      "intent": "COVID_Symptoms",
+      "examples": [
+        {
+          "text": "am i sick"
+        },
+        {
+          "text": "Do I have coronavirus?"
+        },
+        {
+          "text": "do I have covid?"
+        },
+        {
+          "text": "Hi what are the symptoms?"
+        },
+        {
+          "text": "how can one know if they have been infected?"
+        },
+        {
+          "text": "How do I know if I am infected with Covid"
+        },
+        {
+          "text": "how do i know if i got this"
+        },
+        {
+          "text": "how do i know if I got this thing"
+        },
+        {
+          "text": "how do i know if i have this issue"
+        },
+        {
+          "text": "how do I know if i have this thing"
+        },
+        {
+          "text": "how do i know if im sick"
+        },
+        {
+          "text": "How do I know if I'm sick with covid-19?"
+        },
+        {
+          "text": "how to distinguish it from a common cold."
+        },
+        {
+          "text": "I can not breath very well"
+        },
+        {
+          "text": "I feel congested and have a fever"
+        },
+        {
+          "text": "If I only have a sore throat is it Coronavirus?"
+        },
+        {
+          "text": "I have a burning feeling in my chest"
+        },
+        {
+          "text": "I have a fever"
+        },
+        {
+          "text": "I have an irritating cough"
+        },
+        {
+          "text": "i have a sore throat"
+        },
+        {
+          "text": "I have a temperature and cough. Do I have the coronavirus?"
+        },
+        {
+          "text": "I have headache and sore throat, what should I do ?"
+        },
+        {
+          "text": "I have illness symptoms"
+        },
+        {
+          "text": "I have sore throat"
+        },
+        {
+          "text": "I have sore throat, is it coronavirus?"
+        },
+        {
+          "text": "I have traveled recently. What do I do?"
+        },
+        {
+          "text": "I'm afraid I have covid-19"
+        },
+        {
+          "text": "I'm having respiratory problems"
+        },
+        {
+          "text": "Is a headache a symptom of the coronavirus?"
+        },
+        {
+          "text": "Is rash a symptom of covid-19?"
+        },
+        {
+          "text": "I think I feel symptoms of the disease"
+        },
+        {
+          "text": "I think I have covid 19"
+        },
+        {
+          "text": "I think I might have the virus."
+        },
+        {
+          "text": "I think i'm infected"
+        },
+        {
+          "text": "my child has a high fever and is coughing. what should I do?"
+        },
+        {
+          "text": "My child is coughing. Should I be worried?"
+        },
+        {
+          "text": "my eyes are burning"
+        },
+        {
+          "text": "My girlfriend has symptoms of covid-19"
+        },
+        {
+          "text": "My husband has coronavirus symptoms"
+        },
+        {
+          "text": "my throat and head hurt"
+        },
+        {
+          "text": "my throat hurts and I have a headache as well"
+        },
+        {
+          "text": "rhinitis"
+        },
+        {
+          "text": "should I get tested if I have a cough?"
+        },
+        {
+          "text": "Symptoms"
+        },
+        {
+          "text": "tell me about the symptoms"
+        },
+        {
+          "text": "temperature"
+        },
+        {
+          "text": "Wet cough"
+        },
+        {
+          "text": "what are covid 19 symptoms"
+        },
+        {
+          "text": "what are my symptoms"
+        },
+        {
+          "text": "what are symptoms"
+        },
+        {
+          "text": "What are symptoms?"
+        },
+        {
+          "text": "what are symptoms of coronavirus"
+        },
+        {
+          "text": "what are symtoms?"
+        },
+        {
+          "text": "what are the common symptoms"
+        },
+        {
+          "text": "what are the COVID-19 symptoms?"
+        },
+        {
+          "text": "what are the covid symtoms"
+        },
+        {
+          "text": "what are the early symptoms of covid-19?"
+        },
+        {
+          "text": "What are the first symptoms for COVID?"
+        },
+        {
+          "text": "what are the most common symptoms of COVID?"
+        },
+        {
+          "text": "what are the symptoms"
+        },
+        {
+          "text": "What are the symptoms?"
+        },
+        {
+          "text": "what are the symptoms I should look out for"
+        },
+        {
+          "text": "what are the symptoms of coronavirus"
+        },
+        {
+          "text": "What are the symptoms of covid?"
+        },
+        {
+          "text": "what are the symptoms of COVID-19"
+        },
+        {
+          "text": "What are the symptoms of the disease?"
+        },
+        {
+          "text": "what are the types of symptoms"
+        },
+        {
+          "text": "what is the first symptom"
+        },
+        {
+          "text": "what symptoms are typical with this disease"
+        },
+        {
+          "text": "What to do if I think I have covid?"
+        },
+        {
+          "text": "Will I poop a lot if I have the virus?"
+        },
+        {
+          "text": "Will I throw up if I have the virus?"
+        },
+        {
+          "text": "Will my head hurt if I have covid 19?"
+        }
+      ],
+      "description": "Symptoms of Covid-19."
+    },
+    {
+      "intent": "COVID_Testing_Information",
+      "examples": [
+        {
+          "text": "Can I get tested at home?"
+        },
+        {
+          "text": "can I get tested quickly?"
+        },
+        {
+          "text": "Can I test myself?"
+        },
+        {
+          "text": "coronavirus test kit"
+        },
+        {
+          "text": "do i need to get tested?"
+        },
+        {
+          "text": "I have a fever, should I get tested?"
+        },
+        {
+          "text": "I have symptoms. Should I get tested?"
+        },
+        {
+          "text": "Is it possible to detect the disease during the incubation period?"
+        },
+        {
+          "text": "Is it possible to test for covid 19 during the incubation period?"
+        },
+        {
+          "text": "Is the covid test able to detect infection even during the incubation period?"
+        },
+        {
+          "text": "is there a coronavirus test kit"
+        },
+        {
+          "text": "Is there a test for the coronavirus"
+        },
+        {
+          "text": "is there a test kit for coronavirus"
+        },
+        {
+          "text": "Is there a test kit for the coronavirus?"
+        },
+        {
+          "text": "is there test kit for coronavirus"
+        },
+        {
+          "text": "my friend has it should i get tested"
+        },
+        {
+          "text": "ok - I've got enough of those that I think I need to get tested."
+        },
+        {
+          "text": "should i get tested if I do not have symptoms but think I've been exposed?"
+        },
+        {
+          "text": "Should we get tested if we only have symptoms"
+        },
+        {
+          "text": "testing travelers?"
+        },
+        {
+          "text": "What is the test to detect covid 19?"
+        },
+        {
+          "text": "When is the coronavirus test able to detect the disease?"
+        }
+      ],
+      "description": "General questions about testing."
+    },
+    {
+      "intent": "COVID_Testing_Locations",
+      "examples": [
+        {
+          "text": "Can I get tested at my doctor's?"
+        },
+        {
+          "text": "Can I get tested at Walgreens?"
+        },
+        {
+          "text": "Can I test myself at my house?"
+        },
+        {
+          "text": "can you direct me to the nearest test center"
+        },
+        {
+          "text": "How can I get a coronavirus test?"
+        },
+        {
+          "text": "How can I get a test"
+        },
+        {
+          "text": "how can i get screened"
+        },
+        {
+          "text": "how do I get a coronavirus test?"
+        },
+        {
+          "text": "how do i get a test?"
+        },
+        {
+          "text": "how do I get screened?"
+        },
+        {
+          "text": "How do I get tested?"
+        },
+        {
+          "text": "how do you test"
+        },
+        {
+          "text": "i am in new york where should i get tested"
+        },
+        {
+          "text": "i have symptoms. where can i get tested?"
+        },
+        {
+          "text": "I live in Austin, where can I get tested for Covid-19"
+        },
+        {
+          "text": "I live in Ontario, where can I get tested?"
+        },
+        {
+          "text": "I need to be checked for covid 19."
+        },
+        {
+          "text": "I need to get tested, where can I go?"
+        },
+        {
+          "text": "I want a coronavirus test"
+        },
+        {
+          "text": "I want a test for coronavirus"
+        },
+        {
+          "text": "I want to be tested for covid-19"
+        },
+        {
+          "text": "I want to get tested for covid soon"
+        },
+        {
+          "text": "I want to make an appointment for testing"
+        },
+        {
+          "text": "I want to test myself for coronavirus soon"
+        },
+        {
+          "text": "None of those sound like they cover how to get tested. Can you tell me how/where I can get tested?"
+        },
+        {
+          "text": "set an appointment for covid testing"
+        },
+        {
+          "text": "testing locations?"
+        },
+        {
+          "text": "testing spots for coronavirus?"
+        },
+        {
+          "text": "where can I be tested"
+        },
+        {
+          "text": "where can I get a coronavirus test"
+        },
+        {
+          "text": "Where can I get a COVID-19 test?"
+        },
+        {
+          "text": "where can i get a test"
+        },
+        {
+          "text": "where can I get a test?"
+        },
+        {
+          "text": "where can I get a test done"
+        },
+        {
+          "text": "where can I get a test done?"
+        },
+        {
+          "text": "where can I get a test kit"
+        },
+        {
+          "text": "where can i get screened?"
+        },
+        {
+          "text": "where can i get tested"
+        },
+        {
+          "text": "Where can I get tested for Corona?"
+        },
+        {
+          "text": "where can i get tested for coronavirus"
+        },
+        {
+          "text": "Where can I get tested for coronavirus?"
+        },
+        {
+          "text": "Where can I get tested for cover-19"
+        },
+        {
+          "text": "where can I get tested for the coronavirus in New York"
+        },
+        {
+          "text": "where can I get tested in alabama"
+        },
+        {
+          "text": "where can I get tested in Houston?"
+        },
+        {
+          "text": "where can I get tested in new mexico"
+        },
+        {
+          "text": "Where can I go to get tested for COVID?"
+        },
+        {
+          "text": "where can I order a coronavirus test"
+        },
+        {
+          "text": "Where can I test"
+        },
+        {
+          "text": "where do I get a test"
+        },
+        {
+          "text": "Where do I go for COVID19 testing?"
+        },
+        {
+          "text": "where I can get tested"
+        },
+        {
+          "text": "where should I go to get screened"
+        },
+        {
+          "text": "Who do I contact if I want to get tested for covid 19 infection?"
+        }
+      ],
+      "description": "Where to get tested."
+    },
+    {
+      "intent": "COVID_Transmission",
+      "examples": [
+        {
+          "text": "does the virus spread thru surfaces"
+        },
+        {
+          "text": "how can covid be transmitted"
+        },
+        {
+          "text": "How can I get infected?"
+        },
+        {
+          "text": "How contagious is COVID-19?"
+        },
+        {
+          "text": "how does coronavirus spread?"
+        },
+        {
+          "text": "how does covid-19 spread"
+        },
+        {
+          "text": "how does covid-19 spread to others"
+        },
+        {
+          "text": "how does covid spread"
+        },
+        {
+          "text": "How does covid spread?"
+        },
+        {
+          "text": "How does the infection spread"
+        },
+        {
+          "text": "how does the virus spread"
+        },
+        {
+          "text": "How do I catch the virus?"
+        },
+        {
+          "text": "How is COVID-19 spread?"
+        },
+        {
+          "text": "How is covid transmitted?"
+        },
+        {
+          "text": "how many people are infected in the United States"
+        },
+        {
+          "text": "How would I catch it?"
+        },
+        {
+          "text": "How would I get covid?"
+        },
+        {
+          "text": "Is Coronavirus contagious?"
+        },
+        {
+          "text": "is covid-19 contagious?"
+        },
+        {
+          "text": "is covid19 contagious?"
+        },
+        {
+          "text": "is covid transmissible from animals?"
+        },
+        {
+          "text": "is it contagious"
+        },
+        {
+          "text": "Is it possible to get infected from the infected person the next day?"
+        },
+        {
+          "text": "number of infected"
+        },
+        {
+          "text": "spreading covid to others"
+        },
+        {
+          "text": "When does a person become contagious?"
+        }
+      ],
+      "description": "How Covid-19 is transmitted."
+    },
+    {
+      "intent": "COVID_Travel_Restrictions",
+      "examples": [
+        {
+          "text": "airline travel"
+        },
+        {
+          "text": "Are there any travel restrictions in place yet?"
+        },
+        {
+          "text": "Can I travel?"
+        },
+        {
+          "text": "Can I travel for work?"
+        },
+        {
+          "text": "Can I travel in the current emergency situation?"
+        },
+        {
+          "text": "Can I travel out of the country?"
+        },
+        {
+          "text": "can I travel to Arkansas"
+        },
+        {
+          "text": "Can I visit relatives in another state?"
+        },
+        {
+          "text": "Do I need a doctor's note to travel?"
+        },
+        {
+          "text": "do i need to stay home"
+        },
+        {
+          "text": "I just travelled. What do I do?"
+        },
+        {
+          "text": "Is commercial air travel suspended too?"
+        },
+        {
+          "text": "Is driving considered travel?"
+        },
+        {
+          "text": "Is it safe to fly to Seattle?"
+        },
+        {
+          "text": "I traveled to Italy recently. What do I do?"
+        },
+        {
+          "text": "Should I cancel my flight to Denver?"
+        },
+        {
+          "text": "Should I change my travel plans?"
+        },
+        {
+          "text": "should i travel?"
+        },
+        {
+          "text": "What counts as travel?"
+        },
+        {
+          "text": "What if I urgently need to take a flight?"
+        }
+      ],
+      "description": "Status of travel restrictions."
+    },
+    {
+      "intent": "COVID_Treatment_Info",
+      "examples": [
+        {
+          "text": "best vitamin to take"
+        },
+        {
+          "text": "Can I lower my temperature using medication?"
+        },
+        {
+          "text": "Can I take ibuprofen if I have corona virus?"
+        },
+        {
+          "text": "Can medication be used to reduce fever?"
+        },
+        {
+          "text": "can medication reduce fever caused by a possible covid infection?"
+        },
+        {
+          "text": "How can I lower my temperature if I have the coronavirus?"
+        },
+        {
+          "text": "How do I treat coronavirus?"
+        },
+        {
+          "text": "How do we treat covid?"
+        },
+        {
+          "text": "How to treat covid?"
+        },
+        {
+          "text": "I heard about a medication for coronavirus treatment"
+        },
+        {
+          "text": "Is there a medication that can help me feel better?"
+        },
+        {
+          "text": "Is there a medication to reduce temperature with covid-19?"
+        },
+        {
+          "text": "Medication that helps with coronavirus"
+        },
+        {
+          "text": "Should I take Theraflu?"
+        },
+        {
+          "text": "What is the treatment for covid-19?"
+        },
+        {
+          "text": "What is the treatment for this disease?"
+        },
+        {
+          "text": "what kind of medicine should I take"
+        },
+        {
+          "text": "What medicine should I avoid taking if I have coronavirus"
+        },
+        {
+          "text": "what medicine should I be taking for Covid 19"
+        },
+        {
+          "text": "What medicine should I take for COVID 19"
+        },
+        {
+          "text": "what medicines should I take if I have coronavirus"
+        },
+        {
+          "text": "what medicines work best"
+        },
+        {
+          "text": "what medicine work best for treatment ?"
+        }
+      ],
+      "description": "How to treat Covid-19."
+    },
+    {
+      "intent": "COVID_Treatment_Vaccine",
+      "examples": [
+        {
+          "text": "Covid-19 vaccine?"
+        },
+        {
+          "text": "How long does it take to develop a vaccine?"
+        },
+        {
+          "text": "How long will it be until there is a vaccine?"
+        },
+        {
+          "text": "Is it possible to estimate how long it will take to administer the drug / vaccine to people?"
+        },
+        {
+          "text": "Is the covid vaccine ready?"
+        },
+        {
+          "text": "Is there a covid vaccine?"
+        },
+        {
+          "text": "Is there a cure for covid 19?"
+        },
+        {
+          "text": "Is there a cure for covid-19?"
+        },
+        {
+          "text": "Is there a magical cure for covid-19?"
+        },
+        {
+          "text": "Is there a vaccine?"
+        },
+        {
+          "text": "Is there a vaccine for corona virus"
+        },
+        {
+          "text": "Is there a vaccine for coronavirus?"
+        },
+        {
+          "text": "is there a vaccine for covid"
+        },
+        {
+          "text": "Is there a vaccine for Covid-19"
+        },
+        {
+          "text": "is there a vaccine for Covid-19?"
+        },
+        {
+          "text": "Is there a vaccine for the coronavirus?"
+        },
+        {
+          "text": "Is there a vaccine for this"
+        },
+        {
+          "text": "What's the status of a vaccine?"
+        },
+        {
+          "text": "When can I expect drugs for the virus?"
+        },
+        {
+          "text": "When will covid-19 medicines be ready?"
+        },
+        {
+          "text": "Why isn't there a vaccine yet?"
+        }
+      ],
+      "description": "Questions about vaccination."
+    },
+    {
+      "intent": "COVID_Unemployment_Application",
+      "examples": [
+        {
+          "text": "apply for unemployment"
+        },
+        {
+          "text": "How am I gonna pay my bills if I don't have a job anymore?"
+        },
+        {
+          "text": "how can I apply for unemployment?"
+        },
+        {
+          "text": "how can i apply for unemployment during this outbreak?"
+        },
+        {
+          "text": "how do I apply for unemployment"
+        },
+        {
+          "text": "how do I apply for unemployment because of covid-19"
+        },
+        {
+          "text": "how do I apply for unemployment benefits?"
+        },
+        {
+          "text": "how do I apply for unemployment benefits due to Covid-19?"
+        },
+        {
+          "text": "how long can I get unemployment?"
+        },
+        {
+          "text": "how long does it take to get unemployment"
+        },
+        {
+          "text": "how to apply for unemployment"
+        },
+        {
+          "text": "how to I apply for unemployment"
+        },
+        {
+          "text": "i can't go to work.  can i get unemployment?"
+        },
+        {
+          "text": "If I got furloughed, do I qualify for unemployment?"
+        },
+        {
+          "text": "I have a question about unemployment"
+        },
+        {
+          "text": "I just got laid off, now what?"
+        },
+        {
+          "text": "i need to apply for unemployment.  how do I do it"
+        },
+        {
+          "text": "what can I do if I lose my job"
+        },
+        {
+          "text": "what can I do if I lose my job?"
+        },
+        {
+          "text": "What do I do if I don't have unemployment insurance?"
+        },
+        {
+          "text": "What happens if I lose my job?"
+        },
+        {
+          "text": "What if I got furloughed?"
+        },
+        {
+          "text": "where can I apply for unemployment"
+        }
+      ],
+      "description": "How to apply for unemployment."
+    },
+    {
+      "intent": "Customer_Care_Appointments",
+      "examples": [
+        {
+          "text": "Can I book an in person session to learn how to use my new phone at the store near my house?"
+        },
+        {
+          "text": "Can someone support me at home?"
+        },
+        {
+          "text": "Can you explain me this in my house?"
+        },
+        {
+          "text": "Could I speak to someone in the store next tuesday?"
+        },
+        {
+          "text": "Could you cancel the engagement I had tomorrow in my apartment?"
+        },
+        {
+          "text": "How can I change the schedule?"
+        },
+        {
+          "text": "I am due at a store tomorrow at 2pm and wish to change my appointment please?"
+        },
+        {
+          "text": "I need to reschedule"
+        },
+        {
+          "text": "I prefer a face to face visit"
+        },
+        {
+          "text": "Is it possible to set a date?"
+        },
+        {
+          "text": "I want to cancel the appointment that I have with the store"
+        },
+        {
+          "text": "I want to talk in person with someone about my case"
+        },
+        {
+          "text": "I would like to discuss my situation face to face"
+        },
+        {
+          "text": "I would like to make an appointment to visit the nearest store to my location."
+        },
+        {
+          "text": "Make an appointment"
+        },
+        {
+          "text": "Set up an appt"
+        },
+        {
+          "text": "Store appointment"
+        },
+        {
+          "text": "Want to change my visit"
+        },
+        {
+          "text": "What time can I meet the staff?"
+        },
+        {
+          "text": "When can I meet with one of your employees at your store?"
+        }
+      ],
+      "description": "Schedule or manage an in-store appointment."
+    },
+    {
+      "intent": "Customer_Care_Authorized_User",
+      "examples": [
+        {
+          "text": "Add new user please"
+        },
+        {
+          "text": "Add user"
+        },
+        {
+          "text": "Can I add another person to have authority over my account?"
+        },
+        {
+          "text": "Can I add another user?"
+        },
+        {
+          "text": "Can you help me add another user to this account?"
+        },
+        {
+          "text": "Hi, how can I add a user so he can have all the access to my account?"
+        },
+        {
+          "text": "I'd like to add a person to my billing account"
+        },
+        {
+          "text": "I need to add someone to my account settings."
+        },
+        {
+          "text": "Is it possible to add a user that is allowed to do change everything but cannot anything on the financial part?"
+        },
+        {
+          "text": "I want to add a new user who can make changes to and use the account, while I retain sole ownership?"
+        },
+        {
+          "text": "I want to add a secondary user to my account"
+        },
+        {
+          "text": "I want to add my roommate to my plan, but keep sending the bill to me. can I do that here?"
+        },
+        {
+          "text": "I want to add my wife to the account"
+        },
+        {
+          "text": "I want to add someone who can access my account."
+        },
+        {
+          "text": "I want to authorize my spouse to be able to make changes in my account, but not correlated with any financial or ownership responsibilities."
+        },
+        {
+          "text": "I would like to add an authorized user to my account."
+        },
+        {
+          "text": "I would like to add my son to my account. I want him to be able to access the account and to make any changes he needs. can you help me with this?"
+        },
+        {
+          "text": "I would like to add my wife to my account with access and management privileges"
+        },
+        {
+          "text": "I would like to add someone to my account who will be authorized to access the account and make changes."
+        },
+        {
+          "text": "Please update my account to allow my spouse to access the account?"
+        }
+      ],
+      "description": "Change who has access to an account."
+    },
+    {
+      "intent": "Customer_Care_Cancel_Account",
+      "examples": [
+        {
+          "text": "Cancel account"
+        },
+        {
+          "text": "Cancel plan"
+        },
+        {
+          "text": "Cancel service please"
+        },
+        {
+          "text": "Can you please terminate this service?"
+        },
+        {
+          "text": "How do I cancel my phone service with your company?"
+        },
+        {
+          "text": "How do I close out my account?"
+        },
+        {
+          "text": "I am not very happy with services rendered on your part and want my account closed."
+        },
+        {
+          "text": "Id like to cancel or stop my service from my account"
+        },
+        {
+          "text": "I need help with cancellation"
+        },
+        {
+          "text": "I need to close my account at this time."
+        },
+        {
+          "text": "I want to cancel."
+        },
+        {
+          "text": "I want to cancel my service"
+        },
+        {
+          "text": "I want to disconnect my service"
+        },
+        {
+          "text": "I would like to cancel my service, can you do that for me?"
+        },
+        {
+          "text": "My phone is broken so I am wondering if I could cancel my contract"
+        },
+        {
+          "text": "Please close my data card account"
+        },
+        {
+          "text": "Put an end to my account."
+        },
+        {
+          "text": "Terminate service"
+        },
+        {
+          "text": "What do I have to do to stop all my services with you and close my account?"
+        },
+        {
+          "text": "What is the procedure on canceling my account?"
+        }
+      ],
+      "description": "Cancel or close an account."
+    },
+    {
+      "intent": "Customer_Care_Contact_Us",
+      "examples": [
+        {
+          "text": "Can I contact the business by post?"
+        },
+        {
+          "text": "Can I get some more information?"
+        },
+        {
+          "text": "Can I text you a question?"
+        },
+        {
+          "text": "Can you give me the number to the general manager?"
+        },
+        {
+          "text": "Can you please arrange for someone to call me!?"
+        },
+        {
+          "text": "Hi can you let me have the telephone number of my local store please?"
+        },
+        {
+          "text": "How can I contact your business?"
+        },
+        {
+          "text": "How do I best contact you when there has been a problem with my bill?"
+        },
+        {
+          "text": "Is there a phone number to your shop at fort worth tx?"
+        },
+        {
+          "text": "I want to know number to the store closest to me"
+        },
+        {
+          "text": "I would like to speak to customer service."
+        },
+        {
+          "text": "Need your phone number"
+        },
+        {
+          "text": "Tell me the number to your general department"
+        },
+        {
+          "text": "What is the closest store's phone number?"
+        },
+        {
+          "text": "What is the customer number?"
+        },
+        {
+          "text": "What is you email?"
+        },
+        {
+          "text": "What number should I call to order new line of service?"
+        },
+        {
+          "text": "Where can I reach the company personally?"
+        },
+        {
+          "text": "Which is the number of the main office here in los angeles?"
+        },
+        {
+          "text": "Who can I call?"
+        }
+      ],
+      "description": "Find basic contact information."
+    },
+    {
+      "intent": "Customer_Care_Employment_Inquiry",
+      "examples": [
+        {
+          "text": "Are there any job vacancies currently open at your company?"
+        },
+        {
+          "text": "Are you hiring at the moment?"
+        },
+        {
+          "text": "Can I join you guys?"
+        },
+        {
+          "text": "Halp me I need work"
+        },
+        {
+          "text": "Hire me please"
+        },
+        {
+          "text": "How would I go about joining your company?"
+        },
+        {
+          "text": "I am looking for a job and would like to know if you have anything available.."
+        },
+        {
+          "text": "I need to find some work"
+        },
+        {
+          "text": "Is there any current employment opportunities?"
+        },
+        {
+          "text": "Search job"
+        },
+        {
+          "text": "Well I m asking what level of the marketing position your company is looking for"
+        },
+        {
+          "text": "What are the job openings available with the company?"
+        },
+        {
+          "text": "What are the jobs you are hiring for?"
+        },
+        {
+          "text": "What employment opportunities are currently available?"
+        },
+        {
+          "text": "What is your jobs web site?"
+        },
+        {
+          "text": "What jobs are available that are hiring for now?"
+        },
+        {
+          "text": "What kind of jobs do you have?"
+        },
+        {
+          "text": "What positions do you have available?"
+        },
+        {
+          "text": "What's the process for job application?"
+        },
+        {
+          "text": "Where is your careers page?"
+        }
+      ],
+      "description": "Find job opportunities."
+    },
+    {
+      "intent": "Customer_Care_Loyalty_Status",
+      "examples": [
+        {
+          "text": "Can you tell me the status of my reward?"
+        },
+        {
+          "text": "Check rewards"
+        },
+        {
+          "text": "Customer loyalty status"
+        },
+        {
+          "text": "How can I see the points on my account?"
+        },
+        {
+          "text": "How do I verify my rewards balance?"
+        },
+        {
+          "text": "How many loyalty bonus points do I have?"
+        },
+        {
+          "text": "How many miles do I have?"
+        },
+        {
+          "text": "Please display my loyalty credits."
+        },
+        {
+          "text": "Please inform me of my current status?"
+        },
+        {
+          "text": "Points balance?"
+        },
+        {
+          "text": "Points statement?"
+        },
+        {
+          "text": "See available rewards?"
+        },
+        {
+          "text": "View my reward status."
+        },
+        {
+          "text": "What is my frequent buyer credit accumulation?"
+        },
+        {
+          "text": "What is my reward tier right now?"
+        },
+        {
+          "text": "What is the new point total?"
+        },
+        {
+          "text": "What's the number of mileage that I have on my account?"
+        },
+        {
+          "text": "Where do I learn my frequent purchaser tier?"
+        },
+        {
+          "text": "Where is my points shown at?"
+        },
+        {
+          "text": "You can show to me my points?"
+        }
+      ],
+      "description": "Inquire about customer loyalty program status."
+    },
+    {
+      "intent": "Customer_Care_Notification_Preferences",
+      "examples": [
+        {
+          "text": "Can I use another way of receiving alerts by editing existing one?"
+        },
+        {
+          "text": "Can you help me with changing delivery method?"
+        },
+        {
+          "text": "Can you send alert on my whatsapp?"
+        },
+        {
+          "text": "Can you send text notifications to additional mobile number?"
+        },
+        {
+          "text": "Change notifications to sms"
+        },
+        {
+          "text": "Changing my notification preferences"
+        },
+        {
+          "text": "How can I change delivery method?"
+        },
+        {
+          "text": "How can I edit delivery methods to new one?"
+        },
+        {
+          "text": "How can I modify notification alerts?"
+        },
+        {
+          "text": "How can I update my delivery methods?"
+        },
+        {
+          "text": "How do I change credit card transaction alerts?"
+        },
+        {
+          "text": "How to change my notification preferences?"
+        },
+        {
+          "text": "How to customize notifications that I am receiving?"
+        },
+        {
+          "text": "How to switch over from sms to email delivery alert?"
+        },
+        {
+          "text": "I need to change my current alert method to something else"
+        },
+        {
+          "text": "I request to get alerts via email"
+        },
+        {
+          "text": "I want my bank messages to notify me on emails as well"
+        },
+        {
+          "text": "I want to stop getting emails every time my card gets swiped"
+        },
+        {
+          "text": "Notifications are to be received on sms"
+        },
+        {
+          "text": "Tell me process to change alerts method"
+        }
+      ],
+      "description": "Manage user's notifications."
+    },
+    {
+      "intent": "Customer_Care_Open_Account",
+      "examples": [
+        {
+          "text": "Can someone new be able to login?"
+        },
+        {
+          "text": "Can you show me where to register for the program?"
+        },
+        {
+          "text": "Could you explain how to create a fresh account?"
+        },
+        {
+          "text": "Go joining here?"
+        },
+        {
+          "text": "How can I register over here?"
+        },
+        {
+          "text": "How do I become a customer?"
+        },
+        {
+          "text": "How do I login?"
+        },
+        {
+          "text": "I'd like to register"
+        },
+        {
+          "text": "Make account"
+        },
+        {
+          "text": "Please tell me how to register as one of your members."
+        },
+        {
+          "text": "What do I need to do to start an account with your company?"
+        },
+        {
+          "text": "What is required to get signed up here?"
+        },
+        {
+          "text": "What is the log in process for new users?"
+        },
+        {
+          "text": "What is the process to making an account?"
+        },
+        {
+          "text": "Where can I register?"
+        },
+        {
+          "text": "Where does a first time visitor sign up?"
+        },
+        {
+          "text": "Where do I find guidance on signing up?"
+        },
+        {
+          "text": "Where do I register for this?"
+        },
+        {
+          "text": "Where is the sign in page?"
+        },
+        {
+          "text": "Where to login for the first time?"
+        }
+      ],
+      "description": "Open an account."
+    },
+    {
+      "intent": "Customer_Care_Products_Offered",
+      "examples": [
+        {
+          "text": "Catalogue look"
+        },
+        {
+          "text": "I need information on one of your products"
+        },
+        {
+          "text": "Items available?"
+        },
+        {
+          "text": "Items currently sold"
+        },
+        {
+          "text": "I would like to know what I can buy"
+        },
+        {
+          "text": "Need to know what products you have"
+        },
+        {
+          "text": "New products"
+        },
+        {
+          "text": "Show me retirement products"
+        },
+        {
+          "text": "Show me some cars"
+        },
+        {
+          "text": "Tell me about shoes"
+        },
+        {
+          "text": "What are your business banking products?"
+        },
+        {
+          "text": "What does your business sell?"
+        },
+        {
+          "text": "What does your shop provide?"
+        },
+        {
+          "text": "What kind of products are available?"
+        },
+        {
+          "text": "What kinds of products do you sell?"
+        },
+        {
+          "text": "What potential products or services are available?"
+        },
+        {
+          "text": "What product do you recommend for a tech consultant?"
+        },
+        {
+          "text": "What products are offered in the company?"
+        },
+        {
+          "text": "What products can I get from your company?"
+        },
+        {
+          "text": "What products do you offer in the company?"
+        }
+      ],
+      "description": "Find products that are available for purchase."
+    },
+    {
+      "intent": "Customer_Care_Profile_Password",
+      "examples": [
+        {
+          "text": "Can you assist me with card code change?"
+        },
+        {
+          "text": "How do I find out the pin I need to use speak to someone on the phone?"
+        },
+        {
+          "text": "How do I get a new 4-digit code?"
+        },
+        {
+          "text": "How to renew pin of credit card?"
+        },
+        {
+          "text": "I don't remember my debit card pin. how do I recover it?"
+        },
+        {
+          "text": "I forgot my password"
+        },
+        {
+          "text": "I have a pw issue"
+        },
+        {
+          "text": "I have had the same pin used to contact telephone customer support for a long time and would like to change it. could you please help me to set this up."
+        },
+        {
+          "text": "I need to talk to customer service, but I've lost my password. can you help me?"
+        },
+        {
+          "text": "I want to create new code for my credit card"
+        },
+        {
+          "text": "Locate pin"
+        },
+        {
+          "text": "My password has stopped working"
+        },
+        {
+          "text": "Reset password"
+        },
+        {
+          "text": "Tell me the steps to change the pin on my credit card"
+        },
+        {
+          "text": "Wanna change pass"
+        },
+        {
+          "text": "What are the rules for a valid password?"
+        },
+        {
+          "text": "What is the pin that is used to speak to a representative?"
+        },
+        {
+          "text": "What is the policy for revising my current pin number?"
+        },
+        {
+          "text": "What password do I use when chatting with an agent?"
+        },
+        {
+          "text": "Where can I find information about changing my card pin?"
+        }
+      ],
+      "description": "Retrieve or change user's password."
+    },
+    {
+      "intent": "Customer_Care_Profile_Security_Questions",
+      "examples": [
+        {
+          "text": "Can I change the saved security questions I use when accessing my account via the phone?"
+        },
+        {
+          "text": "Can I reset my online security answer?"
+        },
+        {
+          "text": "Can you reset my security question?"
+        },
+        {
+          "text": "Help me with security questions"
+        },
+        {
+          "text": "Hi I want to know if I can change my security settings for talking to customer services over the phone?"
+        },
+        {
+          "text": "How can I set up a phone security question?"
+        },
+        {
+          "text": "I have a feeling that default security questions for accessing my account are too generic and weak. is there a way to have them changed?"
+        },
+        {
+          "text": "I have forgotten my phone security questions"
+        },
+        {
+          "text": "I need to change my questions to get in"
+        },
+        {
+          "text": "Is it possible to change the security questions I use to access my account when I call you?"
+        },
+        {
+          "text": "It has been a while since I updated my online security questions. can you give me directions on how I can edit my account to create better, more recent and more secure questions?"
+        },
+        {
+          "text": "I want to know my security question when I'm dealing with customer service representative."
+        },
+        {
+          "text": "I would like to change the security question used to access my account. could you please explain the procedure."
+        },
+        {
+          "text": "My email may have been hacked so I'm changing all my passwords and security questions can you change the ones I use for talking to customer support?"
+        },
+        {
+          "text": "Security question answers"
+        },
+        {
+          "text": "Security verification question"
+        },
+        {
+          "text": "Update security questions"
+        },
+        {
+          "text": "What are my profile questions?"
+        },
+        {
+          "text": "When I talk to a customer rep, what security questions can I use?"
+        },
+        {
+          "text": "Why do I need to answer security questions when I speak to a representative on the phone?"
+        }
+      ],
+      "description": "Review or change user's security questions."
+    },
+    {
+      "intent": "Customer_Care_Program_Inquiry",
+      "examples": [
+        {
+          "text": "Are past purchases rewarded?"
+        },
+        {
+          "text": "Are pre-purchased items eligible for rewards?"
+        },
+        {
+          "text": "Can I get points for stuff I bought?"
+        },
+        {
+          "text": "Can I get points on transactions I've already made?"
+        },
+        {
+          "text": "Can I receive loyalty credit for previous acquisitions?"
+        },
+        {
+          "text": "Do I get anything for buying a lot?"
+        },
+        {
+          "text": "Do you have a points program?"
+        },
+        {
+          "text": "Frequent purchaser benefits?"
+        },
+        {
+          "text": "If I purchase frequently will I get benefits?"
+        },
+        {
+          "text": "Is it possible to obtain points for buys I have made in the past?"
+        },
+        {
+          "text": "Is there a bonus group offered?"
+        },
+        {
+          "text": "Is there a customer loyalty program of some sort available at the moment?"
+        },
+        {
+          "text": "Is there a program that rewards me for my use?"
+        },
+        {
+          "text": "Is there a rewards system for customers?"
+        },
+        {
+          "text": "Loyalty rewards program?"
+        },
+        {
+          "text": "Receive credits buys?"
+        },
+        {
+          "text": "Reward points backdated?"
+        },
+        {
+          "text": "Reward scheme?"
+        },
+        {
+          "text": "Rewards frequent purchasing?"
+        },
+        {
+          "text": "What about your loyalty program?"
+        }
+      ],
+      "description": "Learn about customer loyalty programs."
+    },
+    {
+      "intent": "Customer_Care_Redeem_Points",
+      "examples": [
+        {
+          "text": "Apply loyalty credit"
+        },
+        {
+          "text": "Cash mileage"
+        },
+        {
+          "text": "How can I exchange my points for something?"
+        },
+        {
+          "text": "How can I use my miles?"
+        },
+        {
+          "text": "How do I earn rewards for my points balance?"
+        },
+        {
+          "text": "How do I redeem bonus points?"
+        },
+        {
+          "text": "I have outstanding credit,please apply the loyalty points"
+        },
+        {
+          "text": "I want a reward by using my points."
+        },
+        {
+          "text": "I want rewards with my points"
+        },
+        {
+          "text": "I want to pay points for an incentive"
+        },
+        {
+          "text": "I wish to go about caching in my points for a purchase,can you show me how?"
+        },
+        {
+          "text": "I would like to know how to get rewards by using my credit card loyalty"
+        },
+        {
+          "text": "May I gain rewards from the current loyalty points?"
+        },
+        {
+          "text": "Pay balance with points"
+        },
+        {
+          "text": "Redeem reward points?"
+        },
+        {
+          "text": "Shop bonus points?"
+        },
+        {
+          "text": "Use mileage"
+        },
+        {
+          "text": "Use rewards towards my bill"
+        },
+        {
+          "text": "What is the procedure for redeeming my mileage?"
+        },
+        {
+          "text": "What is the process of using my credits?"
+        }
+      ],
+      "description": "Redeem points to make a purchase."
+    },
+    {
+      "intent": "Customer_Care_Report_Fraudulent_Use",
+      "examples": [
+        {
+          "text": "Frauded login"
+        },
+        {
+          "text": "How can I report non authorized user?"
+        },
+        {
+          "text": "How can I tell you if there is a suspect in the record?"
+        },
+        {
+          "text": "How do I notify you that my account has been accessed without my permission?"
+        },
+        {
+          "text": "How do I respond to texts that I do not think are true?"
+        },
+        {
+          "text": "How to inform on dubious proceedings?"
+        },
+        {
+          "text": "How to register fraud for savings or checking account?"
+        },
+        {
+          "text": "How would I go about telling someone of unwanted usage of my account?"
+        },
+        {
+          "text": "I'm worried that my savings account might have been compromised."
+        },
+        {
+          "text": "Is there a way to alert you to a suspicious login?"
+        },
+        {
+          "text": "Is there contact information to report unauthorized logins?"
+        },
+        {
+          "text": "I want to make you aware of a case of fake login"
+        },
+        {
+          "text": "My account is been misused. can you assist me with this"
+        },
+        {
+          "text": "Someone has opened an account in my name"
+        },
+        {
+          "text": "Strange activity"
+        },
+        {
+          "text": "Want to report data breach"
+        },
+        {
+          "text": "What should I do to report a scam? what can I do to report unauthorized log in?"
+        },
+        {
+          "text": "What should I do with an unknown visitor?"
+        },
+        {
+          "text": "Where to inform on a skeptical profile login?"
+        },
+        {
+          "text": "Who do I tell about suspect activity?"
+        }
+      ],
+      "description": "Report the fraudulent use of an account."
+    },
+    {
+      "intent": "Customer_Care_Store_Hours",
+      "examples": [
+        {
+          "text": "Are the stores open early?"
+        },
+        {
+          "text": "Are you open during thanksgiving?"
+        },
+        {
+          "text": "Are you open on bank holidays?"
+        },
+        {
+          "text": "Are you open on sundays, and if so what are the hours?"
+        },
+        {
+          "text": "At what hour can I swing by?"
+        },
+        {
+          "text": "Can you tell me how late the stores are open till?"
+        },
+        {
+          "text": "Does the store in the city center opens till 8pm on weekends?"
+        },
+        {
+          "text": "How early do you open?"
+        },
+        {
+          "text": "How long are you open?"
+        },
+        {
+          "text": "Is the branch open now?"
+        },
+        {
+          "text": "What are the business hours of the store nearest to me?"
+        },
+        {
+          "text": "What are the hours of operation?"
+        },
+        {
+          "text": "What are the saturday opening times for the local store?"
+        },
+        {
+          "text": "What are ur opening hours?"
+        },
+        {
+          "text": "What are your hous?"
+        },
+        {
+          "text": "What is the opening time for the washington store?"
+        },
+        {
+          "text": "What time are you closing today?"
+        },
+        {
+          "text": "What time does the central manchester store shut on a saturday?"
+        },
+        {
+          "text": "What time do stores close?"
+        },
+        {
+          "text": "What time is your store open on saturday?"
+        }
+      ],
+      "description": "Find business hours."
+    },
+    {
+      "intent": "Customer_Care_Store_Location",
+      "examples": [
+        {
+          "text": "Can you help me find locations in the general area of downtown baltimore?"
+        },
+        {
+          "text": "Can you tell me about physical locations you have in new jersey?"
+        },
+        {
+          "text": "Do you have an office in denver?"
+        },
+        {
+          "text": "Find store"
+        },
+        {
+          "text": "Go to your company"
+        },
+        {
+          "text": "I'd like to go to a store"
+        },
+        {
+          "text": "I need help with find a store"
+        },
+        {
+          "text": "Is there any shopping mall around me?"
+        },
+        {
+          "text": "I want to know about a store"
+        },
+        {
+          "text": "Looking for a location"
+        },
+        {
+          "text": "Restuarants nearby please"
+        },
+        {
+          "text": "Show me nearest service center"
+        },
+        {
+          "text": "What is the closest pharmacy?"
+        },
+        {
+          "text": "What is the closest store to my address?"
+        },
+        {
+          "text": "What is the nearest branch?"
+        },
+        {
+          "text": "What is the store near my zip code?"
+        },
+        {
+          "text": "Where are the store locations closest to davis city hall?"
+        },
+        {
+          "text": "Where are you located?"
+        },
+        {
+          "text": "Where is?"
+        },
+        {
+          "text": "Where is your office?"
+        }
+      ],
+      "description": "Locate a physical store location or an address."
+    },
+    {
+      "intent": "Customer_Care_Transfer_Points",
+      "examples": [
+        {
+          "text": "Am I able to move points?"
+        },
+        {
+          "text": "Can I carry over my points?"
+        },
+        {
+          "text": "Can I give my points for my friend?"
+        },
+        {
+          "text": "Can I have my points transferred to a different account please?"
+        },
+        {
+          "text": "Can I transfer my minutes to my wife's phone?"
+        },
+        {
+          "text": "Can I transfer to another account my points?"
+        },
+        {
+          "text": "Can you carry my points over to other account?"
+        },
+        {
+          "text": "Can you tell me how I can place my prior account points into my new account?"
+        },
+        {
+          "text": "Could you move my points total please?"
+        },
+        {
+          "text": "How can I move points from one account to another?"
+        },
+        {
+          "text": "How do old account points transfer to new account?"
+        },
+        {
+          "text": "How to transfer points to a new account please?"
+        },
+        {
+          "text": "I'd like to transfer credits to a new account"
+        },
+        {
+          "text": "I have a new account and want my points moved there"
+        },
+        {
+          "text": "I need to share points between two accounts"
+        },
+        {
+          "text": "Is it possible to send my credits to a buddy?"
+        },
+        {
+          "text": "Is there any way I can move points balance to a new account?"
+        },
+        {
+          "text": "I would like to send my credits to a relative"
+        },
+        {
+          "text": "Transfer mileage"
+        },
+        {
+          "text": "What can be done to to send points?"
+        }
+      ],
+      "description": "Transfer points between accounts."
+    },
+    {
+      "intent": "Customer_Care_User_Profile",
+      "examples": [
+        {
+          "text": "Can I set another email address for my account?"
+        },
+        {
+          "text": "Can you help me change the contact email for my account?"
+        },
+        {
+          "text": "Can you please make changes in my account regarding my phone contact information?"
+        },
+        {
+          "text": "Change mailing address"
+        },
+        {
+          "text": "Could you change the phone number in my profile?"
+        },
+        {
+          "text": "Delete a number on my account"
+        },
+        {
+          "text": "I got a new number, help me edit my account"
+        },
+        {
+          "text": "I have a new email account and would like to change my primary contact email. how do I do this?"
+        },
+        {
+          "text": "I moved and have a new landline number. where do I go to update my contact information?"
+        },
+        {
+          "text": "I'm trying to change the email address associated with my account but it keeps giving me an error message can I do it with you?"
+        },
+        {
+          "text": "I need to change my contact information."
+        },
+        {
+          "text": "I need to update the email on my account"
+        },
+        {
+          "text": "I need to update the phone number that you have listed as my contact phone number."
+        },
+        {
+          "text": "It seems like you have my old contact phone number on file, so I would like to have it updated, with your help."
+        },
+        {
+          "text": "I want to change my home address in payment associated with my account, what steps"
+        },
+        {
+          "text": "I will be moving next month. when do I need to give you my new address?"
+        },
+        {
+          "text": "I wish to amend my email address please"
+        },
+        {
+          "text": "I would like to change my contact information. can this be done online or do I have to come in?"
+        },
+        {
+          "text": "I would like to update the email for my online account"
+        },
+        {
+          "text": "There is a typo in my listed email address, I need to fix it"
+        }
+      ],
+      "description": "Change user's information on their account."
+    },
+    {
+      "intent": "dad",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "daddy",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "disease",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "eCommerce_Balance_Inquiry",
+      "examples": [
+        {
+          "text": "Can I check my data balance?"
+        },
+        {
+          "text": "Can I see my account balance?"
+        },
+        {
+          "text": "Can you assist me to check my balance?"
+        },
+        {
+          "text": "Can you help me check my balance?"
+        },
+        {
+          "text": "Can you tell me how much my bill is for this month, I think it is going to be expensive?"
+        },
+        {
+          "text": "Can you tell me my current balance please?"
+        },
+        {
+          "text": "Current bill amount"
+        },
+        {
+          "text": "Give me the amount due"
+        },
+        {
+          "text": "Hello. I want to know how much I have to pay this month"
+        },
+        {
+          "text": "How much is my next payment?"
+        },
+        {
+          "text": "I'd like to find out how much I owe"
+        },
+        {
+          "text": "I want to ask about my account balance"
+        },
+        {
+          "text": "I would like to check how much my bill is please thank you"
+        },
+        {
+          "text": "Show balance"
+        },
+        {
+          "text": "What is my current outstanding?"
+        },
+        {
+          "text": "What is my full balance?"
+        },
+        {
+          "text": "What is the remaining balance?"
+        },
+        {
+          "text": "What's my balance?"
+        },
+        {
+          "text": "What was my account balance as of june 1st, 2016?"
+        },
+        {
+          "text": "Yes, I want to check my balance"
+        }
+      ],
+      "description": "Inquire about an account balance."
+    },
+    {
+      "intent": "eCommerce_Cancel_Product_Order",
+      "examples": [
+        {
+          "text": "Cancel existing order"
+        },
+        {
+          "text": "Cancel order placed earlier"
+        },
+        {
+          "text": "Cancel order submitted today"
+        },
+        {
+          "text": "Can you help me to cancel my last order?"
+        },
+        {
+          "text": "Can you help me to cancel the order which I just placed a few minutes ago?"
+        },
+        {
+          "text": "How can I cancel my order of your extended data service?"
+        },
+        {
+          "text": "How can I cancel my previous order?"
+        },
+        {
+          "text": "I just placed and order, but I need to cancel it."
+        },
+        {
+          "text": "I made an order yesterday, can I cancel it?"
+        },
+        {
+          "text": "I need to cancel an order that I placed."
+        },
+        {
+          "text": "I need to cancel the most recent order. how do I do this?"
+        },
+        {
+          "text": "I need to speak to someone about an order I made not long ago, I need to cancel it please"
+        },
+        {
+          "text": "I recently placed an order for a new phone online. I've changed my mind. can you please cancel my order?"
+        },
+        {
+          "text": "I've bought an keyboard and id like to cancel it"
+        },
+        {
+          "text": "I want to cancel the new device switch order I placed"
+        },
+        {
+          "text": "I want to cancel the order"
+        },
+        {
+          "text": "I wish to cancel my last order."
+        },
+        {
+          "text": "I wish to cancel my recent order"
+        },
+        {
+          "text": "Please cancel the order I've made this morning"
+        },
+        {
+          "text": "Please cancel the order that was recently placed."
+        }
+      ],
+      "description": "Cancel an order."
+    },
+    {
+      "intent": "eCommerce_Create_Product_Order",
+      "examples": [
+        {
+          "text": "Buy accessories"
+        },
+        {
+          "text": "Can I order some products?"
+        },
+        {
+          "text": "Can you tell me which phones are on sale this week? I want to buy a new phone?"
+        },
+        {
+          "text": "Help me to create a new order"
+        },
+        {
+          "text": "How do I go about placing an order with you?"
+        },
+        {
+          "text": "I am ready to order now."
+        },
+        {
+          "text": "I need a new cell phone"
+        },
+        {
+          "text": "I need jeans"
+        },
+        {
+          "text": "I need some assistance in purchasing a pre paid mobile phone as well as a sim"
+        },
+        {
+          "text": "I want to reorder"
+        },
+        {
+          "text": "I would like a sim"
+        },
+        {
+          "text": "I would like to purchase a new device for cash"
+        },
+        {
+          "text": "Make the order again"
+        },
+        {
+          "text": "Ok order this for me"
+        },
+        {
+          "text": "Order and payment for device"
+        },
+        {
+          "text": "Place order for device"
+        },
+        {
+          "text": "Purchase something new"
+        },
+        {
+          "text": "What are the methods to place an order?"
+        },
+        {
+          "text": "Where I can order?"
+        },
+        {
+          "text": "Where to buy a camera?"
+        }
+      ],
+      "description": "Place an order."
+    },
+    {
+      "intent": "eCommerce_Defer_Payment",
+      "examples": [
+        {
+          "text": "Bill extension"
+        },
+        {
+          "text": "Can I ask for a payment deferment?"
+        },
+        {
+          "text": "Can I defer a bill please?"
+        },
+        {
+          "text": "Can I defer the balance on my account?"
+        },
+        {
+          "text": "Can I delay a payment for a couple of days?"
+        },
+        {
+          "text": "Can I pay my bill later than due date?"
+        },
+        {
+          "text": "Can you get payment extension?"
+        },
+        {
+          "text": "Could the due date for my next bill be delayed? I have changed jobs and my old company did not yet pay me?"
+        },
+        {
+          "text": "Hi. my payment due date is't convenient for me. could I change it?"
+        },
+        {
+          "text": "How can avoid late fees?"
+        },
+        {
+          "text": "How can I extent the due date of my payments?"
+        },
+        {
+          "text": "How can I postpone making a payment?"
+        },
+        {
+          "text": "I am not able to pay my bill this week. can you please extend the bill due date by 1 week"
+        },
+        {
+          "text": "I can't pay my bill on time, can I pay it the week after it's due?"
+        },
+        {
+          "text": "I'd like to delay this month's payment by a week please."
+        },
+        {
+          "text": "I need to defer my bill payment by 7 days."
+        },
+        {
+          "text": "Is there any way that I can defer a payment for my phone? I will be on vacation and won't be able to do it from overseas?"
+        },
+        {
+          "text": "I would like to extend my payment due date"
+        },
+        {
+          "text": "Payment after due date"
+        },
+        {
+          "text": "Please keep power on I can pay you later"
+        }
+      ],
+      "description": "Delay the payment due date for a current bill."
+    },
+    {
+      "intent": "eCommerce_Dispute",
+      "examples": [
+        {
+          "text": "Can you change my bill?"
+        },
+        {
+          "text": "Can you help me understand my bill?"
+        },
+        {
+          "text": "Explain phone bill"
+        },
+        {
+          "text": "How to get a bill corrected?"
+        },
+        {
+          "text": "I'd like credit for interrupted service."
+        },
+        {
+          "text": "I don't agree with the charge"
+        },
+        {
+          "text": "I'm not at all pleased with your data speed and I don't feel like I'm getting my money's worth. so I'd like an adjustment"
+        },
+        {
+          "text": "I need to readjust my credit card, I am getting endless late fee's despite paying on the due date, I want answers."
+        },
+        {
+          "text": "I need to request an adjustment on my billing statement."
+        },
+        {
+          "text": "I noticed on my bill that I get charged every month for an extra line. I do not have an extra line. can you please check?"
+        },
+        {
+          "text": "Need explanation for the settlement of loan against credit card"
+        },
+        {
+          "text": "Please check the output for my last credit card transaction"
+        },
+        {
+          "text": "What are the items on my bill?"
+        },
+        {
+          "text": "What do I do if my bill is wrong?"
+        },
+        {
+          "text": "What is the $5.00 charge related to?"
+        },
+        {
+          "text": "What's a 'restoral fee' and why did you charge me $50.00 for it?"
+        },
+        {
+          "text": "Why is there an increase in this months bill from last month?"
+        },
+        {
+          "text": "Why late fee?"
+        },
+        {
+          "text": "Why was I charged an administration fee?"
+        },
+        {
+          "text": "Why was I charged multiple times for the same purchase?"
+        }
+      ],
+      "description": "Dispute an issue about a bill."
+    },
+    {
+      "intent": "eCommerce_Make_A_Payment",
+      "examples": [
+        {
+          "text": "Bugger me I wanna pay me bill"
+        },
+        {
+          "text": "Can I do a bill payment?"
+        },
+        {
+          "text": "Can I pay my bill?"
+        },
+        {
+          "text": "Can you assist me with paying my bill?"
+        },
+        {
+          "text": "Handle payment?"
+        },
+        {
+          "text": "How can I pay off my balance?"
+        },
+        {
+          "text": "I also want to make a payment when I have you here on chat"
+        },
+        {
+          "text": "I'd like to pay"
+        },
+        {
+          "text": "I need to pay the cost of my service plan"
+        },
+        {
+          "text": "I need to schedule a payment"
+        },
+        {
+          "text": "I think I'm gonna pay the bill"
+        },
+        {
+          "text": "I want to make a one time payment and enter my debit card payment information"
+        },
+        {
+          "text": "I want to make payment"
+        },
+        {
+          "text": "I want to pay my bill with a credit card"
+        },
+        {
+          "text": "I would like to ask a question about making a payment."
+        },
+        {
+          "text": "Pay my account"
+        },
+        {
+          "text": "Request bill pay"
+        },
+        {
+          "text": "Right now, I am in a different city and how to make cash payment as today is the due date"
+        },
+        {
+          "text": "Schedule payment"
+        },
+        {
+          "text": "Want to pay"
+        }
+      ],
+      "description": "Make a payment."
+    },
+    {
+      "intent": "eCommerce_Method_Of_Payment",
+      "examples": [
+        {
+          "text": "Change payment setup"
+        },
+        {
+          "text": "Direct transfer"
+        },
+        {
+          "text": "Do you accept bank wires?"
+        },
+        {
+          "text": "Do you accept visa?"
+        },
+        {
+          "text": "Do you take discover?"
+        },
+        {
+          "text": "Hi, can I pay for the service by paypal?"
+        },
+        {
+          "text": "How can I pay you?"
+        },
+        {
+          "text": "I need to add a new payment card"
+        },
+        {
+          "text": "I need to change my credit card"
+        },
+        {
+          "text": "Is there a chance I can pay with cash upon delivery?"
+        },
+        {
+          "text": "I want to change my payment preferences."
+        },
+        {
+          "text": "I want to switch what card my payment is taken from"
+        },
+        {
+          "text": "Morning, can you tell me by what methods I can settle my monthly bill?"
+        },
+        {
+          "text": "Pay by email"
+        },
+        {
+          "text": "Till now, I was paying in cash. may I pay the future payments through credit card?"
+        },
+        {
+          "text": "Update card"
+        },
+        {
+          "text": "What are the payment methods?"
+        },
+        {
+          "text": "What are your payment options?"
+        },
+        {
+          "text": "What did I pay for credit card?"
+        },
+        {
+          "text": "What kind of payments are accepted?"
+        }
+      ],
+      "description": "Manage the method of payment for a bill."
+    },
+    {
+      "intent": "eCommerce_Modify_Product_Order",
+      "examples": [
+        {
+          "text": "Can I change my order for a new device?"
+        },
+        {
+          "text": "Can I change the number on the order from three to four?"
+        },
+        {
+          "text": "Can you change the order I just placed?"
+        },
+        {
+          "text": "Can you help me modify the order that I just placed?"
+        },
+        {
+          "text": "Changed mind on last order"
+        },
+        {
+          "text": "Hey I would like to change the delivery date on my order please"
+        },
+        {
+          "text": "How can I chance my order?"
+        },
+        {
+          "text": "How do I change the phone that I ordered?"
+        },
+        {
+          "text": "I'd like to change some things with my most recent order"
+        },
+        {
+          "text": "I need to amend the order I placed yesterday please"
+        },
+        {
+          "text": "I need to change my order help please"
+        },
+        {
+          "text": "I need to make a change to my current order"
+        },
+        {
+          "text": "I ordered a new phone today but forgot to add an extra charger. can you please add it to my original order."
+        },
+        {
+          "text": "Is there a way to modify a previous order?"
+        },
+        {
+          "text": "I want to change my last order but I don't want to cancel it. can I do that?"
+        },
+        {
+          "text": "I want to edit an order"
+        },
+        {
+          "text": "I want to modify an order made"
+        },
+        {
+          "text": "I want to update my order."
+        },
+        {
+          "text": "I would like to add additional items to an order."
+        },
+        {
+          "text": "I would like to modify an order I made."
+        }
+      ],
+      "description": "Change or modify a placed order."
+    },
+    {
+      "intent": "eCommerce_Past_Payment_Inquiry",
+      "examples": [
+        {
+          "text": "Can I get a payment record for these whole year?"
+        },
+        {
+          "text": "Can you tell me if I paid my bill with my credit card?"
+        },
+        {
+          "text": "Does the payment for july is already done?"
+        },
+        {
+          "text": "Have I paid my bill?"
+        },
+        {
+          "text": "How can I know my payment went through?"
+        },
+        {
+          "text": "How do I review my payments?"
+        },
+        {
+          "text": "I already pay that in this month"
+        },
+        {
+          "text": "I can't find my payment"
+        },
+        {
+          "text": "I'd like to check the status of a bill I paid as it has not been credited to my account."
+        },
+        {
+          "text": "Indicate payment for the purchase of my device six months ago"
+        },
+        {
+          "text": "I need some details about my last month payment."
+        },
+        {
+          "text": "I paid my bill but got sent an overdue notice, my bank statement shows it went through so why does it say its overdue?"
+        },
+        {
+          "text": "I want payment information by a device two months ago"
+        },
+        {
+          "text": "I want to make sure that a payment was credited to my account. can you verify that?"
+        },
+        {
+          "text": "My bill says I didn't make a payment last month, but I did, can you look into this please?"
+        },
+        {
+          "text": "Past payment"
+        },
+        {
+          "text": "Verify payment"
+        },
+        {
+          "text": "Wanted to make sure my payment was received."
+        },
+        {
+          "text": "What is the confirmation number for the payment I made on july 4, 2016?"
+        },
+        {
+          "text": "When was this specific payment made?"
+        }
+      ],
+      "description": "Inquire about payments made in the past."
+    },
+    {
+      "intent": "eCommerce_Payment_Due_Date",
+      "examples": [
+        {
+          "text": "Can you remind me when is my payment due day?"
+        },
+        {
+          "text": "Could you pls advise on due date of my bill?"
+        },
+        {
+          "text": "Date of payment"
+        },
+        {
+          "text": "How can I check when my monthly payment is due?"
+        },
+        {
+          "text": "I need to know the due date for my phone bill"
+        },
+        {
+          "text": "Is there any grace period with due dates?"
+        },
+        {
+          "text": "I wonder what is my payment date?"
+        },
+        {
+          "text": "I would like to know the due date of my bill"
+        },
+        {
+          "text": "Next billing due"
+        },
+        {
+          "text": "On what day is my cellphone payment due?"
+        },
+        {
+          "text": "Statement due"
+        },
+        {
+          "text": "What day do I have to make my payment by?"
+        },
+        {
+          "text": "When due?"
+        },
+        {
+          "text": "When is my current amount due?"
+        },
+        {
+          "text": "When is my current bill pay date?"
+        },
+        {
+          "text": "When is my payment due by?"
+        },
+        {
+          "text": "When is the day for paying the bils?"
+        },
+        {
+          "text": "When is the next payment date?"
+        },
+        {
+          "text": "When will be my next day of payment?"
+        },
+        {
+          "text": "Which is the deadline for the settlement of my bills?"
+        }
+      ],
+      "description": "Inquire about when the next payment is due."
+    },
+    {
+      "intent": "eCommerce_Product_Order_Status",
+      "examples": [
+        {
+          "text": "Can I check on my order?"
+        },
+        {
+          "text": "Can you track the whereabouts of this sim I ordered?"
+        },
+        {
+          "text": "Expected to ship"
+        },
+        {
+          "text": "Has my new phone shipped yet?"
+        },
+        {
+          "text": "Has the order been dispatched yet?"
+        },
+        {
+          "text": "How do I track my shipment?"
+        },
+        {
+          "text": "How soon can we expect the new shipment of iphone 7 that was pre ordered last week?"
+        },
+        {
+          "text": "I purchased an item the other day and still haven't received an update about it, have you shipped it yet?"
+        },
+        {
+          "text": "I want a status report on an order I made last week."
+        },
+        {
+          "text": "I was just wondering if I could check the status of an order I made."
+        },
+        {
+          "text": "I would like to check the status of an order I placed recently."
+        },
+        {
+          "text": "Order progress"
+        },
+        {
+          "text": "Please, can you tell me about the status of an orden I made?"
+        },
+        {
+          "text": "Shipping status"
+        },
+        {
+          "text": "Tracking number"
+        },
+        {
+          "text": "What state you are in with my current order?"
+        },
+        {
+          "text": "When is my new phone supposed to arrive?"
+        },
+        {
+          "text": "Where is my order?"
+        },
+        {
+          "text": "Yes it was attempted for delivery but it says the parcel was refused though we were in the flat"
+        },
+        {
+          "text": "Yes I want to track my order"
+        }
+      ],
+      "description": "Request status of an order that has been placed."
+    },
+    {
+      "intent": "eCommerce_Recurring_Payment_Autopay",
+      "examples": [
+        {
+          "text": "Auto bill pay"
+        },
+        {
+          "text": "Automatically pay bills"
+        },
+        {
+          "text": "Can I change my plan to auto pay?"
+        },
+        {
+          "text": "Can I make a payment now and have it be recurring?"
+        },
+        {
+          "text": "Can you help me cancel the autopay?"
+        },
+        {
+          "text": "Do you offer automatic payment set-up?"
+        },
+        {
+          "text": "Hi, how can I set up the automated monthly payments?"
+        },
+        {
+          "text": "How can I change my recurring payment?"
+        },
+        {
+          "text": "How do I set up direct debit?"
+        },
+        {
+          "text": "How do I sign up for auto on line bill payment?"
+        },
+        {
+          "text": "How do I sign up for autopay?"
+        },
+        {
+          "text": "How do I turn auto pay on?"
+        },
+        {
+          "text": "How to cancel my card automated payments?"
+        },
+        {
+          "text": "I'd like to setup autopay please."
+        },
+        {
+          "text": "I need to make changes to my automatic payments for my account."
+        },
+        {
+          "text": "I want to activate auto payments"
+        },
+        {
+          "text": "I want to know how to set up automatic payments"
+        },
+        {
+          "text": "I would like to change the account my automatic payment is drawn from please?"
+        },
+        {
+          "text": "I would like to set up monthly payments"
+        },
+        {
+          "text": "Manage autopay"
+        }
+      ],
+      "description": "Start making automatic recurring payments."
+    },
+    {
+      "intent": "eCommerce_Refund_Payment",
+      "examples": [
+        {
+          "text": "Arrange refund"
+        },
+        {
+          "text": "Can I get a refund on the activation fee?"
+        },
+        {
+          "text": "Can I get a refund when my internet was out for 6 hours?"
+        },
+        {
+          "text": "Can I get my last month refunded due to the contract cancelation?"
+        },
+        {
+          "text": "Can I just have a full refund?"
+        },
+        {
+          "text": "Can you refund all payments?"
+        },
+        {
+          "text": "Do I get a refund if I paid too much?"
+        },
+        {
+          "text": "I am unfairly charged. am I going to be refunded?"
+        },
+        {
+          "text": "If I cancel some services which have been prepaid, can I receive a refund for part of what has already been paid? what is your refund policy?"
+        },
+        {
+          "text": "I paid my bill twice last month. can you refund my last payment?"
+        },
+        {
+          "text": "Is it possible to refund the latest payment that I made?"
+        },
+        {
+          "text": "I want a refund on the previous purchase I made."
+        },
+        {
+          "text": "I was charged for services that I don't subscribe to. how can I go about getting a refund"
+        },
+        {
+          "text": "I was overcharged on my last bill, I need that refunded."
+        },
+        {
+          "text": "I would like a refund for the service outage last month please."
+        },
+        {
+          "text": "My credit card was double charged for my last bill. how do I get the extra charge refunded to it?"
+        },
+        {
+          "text": "My service was interrupted for 5 days. I would like a refund based on the time that the service was unavailable."
+        },
+        {
+          "text": "Refund my payment"
+        },
+        {
+          "text": "Where can I get refunds?"
+        },
+        {
+          "text": "Who do I have to speak to get a refund on one of my payments?"
+        }
+      ],
+      "description": "Request a refund for a payment."
+    },
+    {
+      "intent": "eCommerce_Statements",
+      "examples": [
+        {
+          "text": "Can I check my bill?"
+        },
+        {
+          "text": "Can I get another copy of my bill?"
+        },
+        {
+          "text": "Can I request credit card statement right from this chat window?"
+        },
+        {
+          "text": "Could you please send a print out of my late statement?"
+        },
+        {
+          "text": "Help me find my bill"
+        },
+        {
+          "text": "How can I save statements of credit card?"
+        },
+        {
+          "text": "How do I get a previous month's bill?"
+        },
+        {
+          "text": "How do I view my e-bill?"
+        },
+        {
+          "text": "I need to know more about my paper statements that I receive at home"
+        },
+        {
+          "text": "I seem to have misplaced my most recent billing statement and would appreciate if you sent me a replacement one."
+        },
+        {
+          "text": "Is there any sort of extra fee for paper invoices?"
+        },
+        {
+          "text": "I wanna see my bill"
+        },
+        {
+          "text": "I want a copy of the bill from last month"
+        },
+        {
+          "text": "I want a physical copy of credit card history"
+        },
+        {
+          "text": "I want to request a credit card statement"
+        },
+        {
+          "text": "My bank statement shows an unexpected payment to you so I would like a copy of my latest billing statement."
+        },
+        {
+          "text": "Show my bill"
+        },
+        {
+          "text": "What are my bills details?"
+        },
+        {
+          "text": "What are the steps for checking credit card statement for particular duration?"
+        },
+        {
+          "text": "What was my last bill?"
+        }
+      ],
+      "description": "Request a billing statement."
+    },
+    {
+      "intent": "father",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "fiancee",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "friend",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "Funeral",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're too stupid"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You've been so helpful :)"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "GF",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "girlfriend",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "goodbyes",
+      "examples": [
+        {
+          "text": "bye"
+        },
+        {
+          "text": "c ya"
+        },
+        {
+          "text": "goodbye"
+        },
+        {
+          "text": "see you"
+        },
+        {
+          "text": "talk to you soon"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "grad",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "graduate",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "graduating",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "Graduation",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "grandma",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "grandpa",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "grannie",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "granny",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "greetings",
+      "examples": [
+        {
+          "text": "good afternoon"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "kia ora"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "grief",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "groom",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "hospital",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "hours_info",
+      "examples": [
+        {
+          "text": "Are you open on Christmas' Day?"
+        },
+        {
+          "text": "Are you open on Saturdays?"
+        },
+        {
+          "text": "Are you open on Sundays?"
+        },
+        {
+          "text": "what are the hours of operation for your Montreal store"
+        },
+        {
+          "text": "what are you hours of operation in Toronto"
+        },
+        {
+          "text": "What are your hours?"
+        },
+        {
+          "text": "What are your hours of operation?"
+        },
+        {
+          "text": "What days are you closed on?"
+        },
+        {
+          "text": "What time are you open until?"
+        },
+        {
+          "text": "When are you open"
+        },
+        {
+          "text": "When do you close"
+        },
+        {
+          "text": "When do you open"
+        }
+      ]
+    },
+    {
+      "intent": "husband",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "ill",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "location_info",
+      "examples": [
+        {
+          "text": "do you have a flower shop in Montreal"
+        },
+        {
+          "text": "Give me a list of locations"
+        },
+        {
+          "text": "List of location"
+        },
+        {
+          "text": "list of your locations"
+        },
+        {
+          "text": "locations in America"
+        },
+        {
+          "text": "Locations in Canada"
+        },
+        {
+          "text": "What are your locations?"
+        },
+        {
+          "text": "What's the address of your Toronto store?"
+        },
+        {
+          "text": "what's the address of your Vancouver store?"
+        },
+        {
+          "text": "Where are you physically located?"
+        },
+        {
+          "text": "Where are your stores?"
+        },
+        {
+          "text": "where is your Toronto store?"
+        }
+      ]
+    },
+    {
+      "intent": "mama",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "mom",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "mommy",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "momsie",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "mother",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "mum",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "neighbor",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "partner",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "pops",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "professor",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "relative",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "Retirement",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "roommate",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "Shiva",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "sickness",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "sister",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "sorrow",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "step",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "success",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "sympathy",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "teacher",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "thank_you",
+      "examples": [
+        {
+          "text": "appreciate it"
+        },
+        {
+          "text": "cheers"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "thx"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "trainer",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "uncle",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "Utilities_Construction",
+      "examples": [
+        {
+          "text": "Can I receive calls while I work on the construction?"
+        },
+        {
+          "text": "Can I relocate the fridge socket?"
+        },
+        {
+          "text": "Can solar panels be installed when redoing the roof?"
+        },
+        {
+          "text": "Can you disconnect my gas supply as I'm rebuilding my house?"
+        },
+        {
+          "text": "How can I have solar panels placed during a roofing project?"
+        },
+        {
+          "text": "I have got some home improving work booked soon"
+        },
+        {
+          "text": "I have to dig by the house"
+        },
+        {
+          "text": "I'm redoing our roof and would like to add solar panels"
+        },
+        {
+          "text": "I'm remodeling my house"
+        },
+        {
+          "text": "I need to keep my service doing my home construction."
+        },
+        {
+          "text": "Is calling during construction allowed?"
+        },
+        {
+          "text": "I want to tell you that I am starting construction"
+        },
+        {
+          "text": "Tell me about the law I need to follow when remodeling"
+        },
+        {
+          "text": "We are doing a house improvement project."
+        },
+        {
+          "text": "We're making the house bigger"
+        },
+        {
+          "text": "What are the regulations regarding knocking down this wall?"
+        },
+        {
+          "text": "What are ways to rewire a room?"
+        },
+        {
+          "text": "What should I consider doing first before renovating and creating more space with a room?"
+        },
+        {
+          "text": "What things do I need to take into account before doing a remodeling?"
+        },
+        {
+          "text": "Will you help us wire up the new rooms we added?"
+        }
+      ],
+      "description": "Inquire about the impact that a construction project has on a utility service."
+    },
+    {
+      "intent": "Utilities_File_A_Loss_Claim",
+      "examples": [
+        {
+          "text": "Begin an insurance claim"
+        },
+        {
+          "text": "By a hailstorm our panels were affected. insurance covers them"
+        },
+        {
+          "text": "File the insurance claim"
+        },
+        {
+          "text": "File tumbler claim"
+        },
+        {
+          "text": "Help me fill a claim on my fuel heater insurance"
+        },
+        {
+          "text": "Help us to fix the smoke heater problem claim"
+        },
+        {
+          "text": "How do I file a claim for hail damaged solar panels?"
+        },
+        {
+          "text": "How do I finish an insurance claim?"
+        },
+        {
+          "text": "How to enter a fuel heater coverage claim?"
+        },
+        {
+          "text": "In a hail storm our solar panels got messed up"
+        },
+        {
+          "text": "I want to start a claim on my gas heater"
+        },
+        {
+          "text": "My fridge is broken after the electrical storm"
+        },
+        {
+          "text": "My solar panels got destroyed up in a hail storm and they are insured"
+        },
+        {
+          "text": "My solar panels were destroyed due to severe weather."
+        },
+        {
+          "text": "The hail storm destroyed our solar panels. they are insured"
+        },
+        {
+          "text": "We need to make a claim on our gas heater insurance"
+        },
+        {
+          "text": "We want to submit smoke heater insurance claim"
+        },
+        {
+          "text": "We want to submit the claim for the gas heater insurance"
+        },
+        {
+          "text": "What is the insurance claim process?"
+        },
+        {
+          "text": "Where can I submit gas heater coverage complaints?"
+        }
+      ],
+      "description": "File a claim for a loss."
+    },
+    {
+      "intent": "Utilities_Find_A_Generator",
+      "examples": [
+        {
+          "text": "Find a power generator close to my location"
+        },
+        {
+          "text": "Finding a secondary power supply"
+        },
+        {
+          "text": "How can I find the nearest generator?"
+        },
+        {
+          "text": "How can I locate a generator?"
+        },
+        {
+          "text": "How do I get a generator in case of power loss?"
+        },
+        {
+          "text": "I have to get a generator."
+        },
+        {
+          "text": "I need a generator in my neighborhood"
+        },
+        {
+          "text": "I need backup power"
+        },
+        {
+          "text": "I need supplemental power."
+        },
+        {
+          "text": "I want to buy a generator"
+        },
+        {
+          "text": "What's the closest emergency power source?"
+        },
+        {
+          "text": "What's the closest power station to me?"
+        },
+        {
+          "text": "What stores in my area sell generators?"
+        },
+        {
+          "text": "Where are the generators near me?"
+        },
+        {
+          "text": "Where are the generators to be found?"
+        },
+        {
+          "text": "Where can I buy a generator?"
+        },
+        {
+          "text": "Where can I find a back up power supply?"
+        },
+        {
+          "text": "Where is a power generation system?"
+        },
+        {
+          "text": "Where there is a generator that is not far away?"
+        },
+        {
+          "text": "Who supplies generators?"
+        }
+      ],
+      "description": "Locate a generator."
+    },
+    {
+      "intent": "Utilities_Outage_Status",
+      "examples": [
+        {
+          "text": "Are you able to repair my blackout asap?"
+        },
+        {
+          "text": "Can you tell me when the service is going to return?"
+        },
+        {
+          "text": "Do you have a timeframe for service resume?"
+        },
+        {
+          "text": "Has the company estimated how long this will take?"
+        },
+        {
+          "text": "I need you to tell me how long it takes to fix the blackout?"
+        },
+        {
+          "text": "Is the power out in my area?"
+        },
+        {
+          "text": "Is the power out locally?"
+        },
+        {
+          "text": "Is there an electric failure?"
+        },
+        {
+          "text": "Is there an status update on the outage in fountain valley?"
+        },
+        {
+          "text": "Is there a power outage in my city?"
+        },
+        {
+          "text": "It's thundering out, will I lose power?"
+        },
+        {
+          "text": "Power has just returned at my house"
+        },
+        {
+          "text": "What areas are affected by the black out?"
+        },
+        {
+          "text": "What happened to the electricity?"
+        },
+        {
+          "text": "What is time frame for lights back on?"
+        },
+        {
+          "text": "When will the fuel system be back on?"
+        },
+        {
+          "text": "When will this outage be over?"
+        },
+        {
+          "text": "Where can I search areas for outages?"
+        },
+        {
+          "text": "Where is the service interrupted?"
+        },
+        {
+          "text": "Which locations don't have any power?"
+        }
+      ],
+      "description": "Request current information on a disruption of service."
+    },
+    {
+      "intent": "Utilities_Report_Outage",
+      "examples": [
+        {
+          "text": "Accidentally left the range on and I am away from the dwelling for the day"
+        },
+        {
+          "text": "A light on my road does not appear to be working"
+        },
+        {
+          "text": "Can a service person check on a fallen power line?"
+        },
+        {
+          "text": "Can I got you help for a street light?"
+        },
+        {
+          "text": "Everything indicates that the gas is escaping"
+        },
+        {
+          "text": "How do I report a dangling cable?"
+        },
+        {
+          "text": "I am smelling gas throughout my house I need assistance"
+        },
+        {
+          "text": "I believe one of the electricity cables has been taken out."
+        },
+        {
+          "text": "I don't have power in my neighborhood"
+        },
+        {
+          "text": "I need anybody to help me to fix the hole impregnate gas in my house"
+        },
+        {
+          "text": "I need help. I guess there is gas over the apartment. can someone come over to take care of it?"
+        },
+        {
+          "text": "I think our street lamp's bulb needs to be changed"
+        },
+        {
+          "text": "My electricity cable has become unusable is broken"
+        },
+        {
+          "text": "My street's cable line is down. when will it be repaired?"
+        },
+        {
+          "text": "My tv just turned off and there's no power"
+        },
+        {
+          "text": "One of the lamp posts blew out"
+        },
+        {
+          "text": "One of the lights on our street isn't working properly"
+        },
+        {
+          "text": "Please schedule a crew to fix the utility pole"
+        },
+        {
+          "text": "The electricity might be out around me"
+        },
+        {
+          "text": "What on earth is happening with the electical supply, nothing is functioning?"
+        }
+      ],
+      "description": "Report a disruption of a utility service."
+    },
+    {
+      "intent": "Utilities_Report_Usage",
+      "examples": [
+        {
+          "text": "Can I report my kwh data online?"
+        },
+        {
+          "text": "Can I report the number on my meter for this month?"
+        },
+        {
+          "text": "Can I report what my meter says?"
+        },
+        {
+          "text": "Can I submit my meter data?"
+        },
+        {
+          "text": "Can I submit my meter numbers to you?"
+        },
+        {
+          "text": "Enter in meter data"
+        },
+        {
+          "text": "Enter in my meter reads"
+        },
+        {
+          "text": "How do I file information on electricity usage?"
+        },
+        {
+          "text": "I can tell you my electric meter reading"
+        },
+        {
+          "text": "I would like to report my usage"
+        },
+        {
+          "text": "Record meter readings"
+        },
+        {
+          "text": "Record my electrical usage"
+        },
+        {
+          "text": "Report data on usage"
+        },
+        {
+          "text": "Report reading from my meter"
+        },
+        {
+          "text": "Report the electricity meter reading"
+        },
+        {
+          "text": "Report usage numbers"
+        },
+        {
+          "text": "Report usage registered on power meter"
+        },
+        {
+          "text": "Submit electrical meter reading"
+        },
+        {
+          "text": "Submit electric usage"
+        },
+        {
+          "text": "Submit energy consumption"
+        }
+      ],
+      "description": "Report usage registered on a meter."
+    },
+    {
+      "intent": "Utilities_Start_Service",
+      "examples": [
+        {
+          "text": "Add the electricity to home"
+        },
+        {
+          "text": "Explain how to connect the electric service"
+        },
+        {
+          "text": "How can I start electricity?"
+        },
+        {
+          "text": "How can I turn on the gas?"
+        },
+        {
+          "text": "How do I arrange for my service to begin?"
+        },
+        {
+          "text": "How do I turn the lights on in my new home?"
+        },
+        {
+          "text": "How I get power for the first time?"
+        },
+        {
+          "text": "How to get my power supply connected?"
+        },
+        {
+          "text": "How to I get my electricity supply hooked up?"
+        },
+        {
+          "text": "How to reactivate my gas service?"
+        },
+        {
+          "text": "I'd like to get electricity in my house"
+        },
+        {
+          "text": "I need information on requesting service."
+        },
+        {
+          "text": "I want a reconnection of my gas service"
+        },
+        {
+          "text": "I wish to start an electrical supply what are the steps to achieving this?"
+        },
+        {
+          "text": "Start utilities."
+        },
+        {
+          "text": "The house is backed up please check if the gas is working and begin the supply of gas to the house"
+        },
+        {
+          "text": "We completed the required building inspection so please connect the gas."
+        },
+        {
+          "text": "What is the process for starting this service?"
+        },
+        {
+          "text": "Who do I need to contact in order to get a gas supply to my location?"
+        },
+        {
+          "text": "Would you please fix electricity connection?"
+        }
+      ],
+      "description": "Start a service."
+    },
+    {
+      "intent": "Utilities_Stop_Service",
+      "examples": [
+        {
+          "text": "Can you disconnect me from the service?"
+        },
+        {
+          "text": "Can you suspend my electric supply for a while as I am going on an extended vacation?"
+        },
+        {
+          "text": "Could you please turn off my lights?"
+        },
+        {
+          "text": "Disconnect form the electric power"
+        },
+        {
+          "text": "Discontinue gas."
+        },
+        {
+          "text": "How do I shut off the gas and electricity?"
+        },
+        {
+          "text": "I am finished with the solar panel service."
+        },
+        {
+          "text": "I'd like to cancel the service for my gas."
+        },
+        {
+          "text": "I don't need a power supply any longer."
+        },
+        {
+          "text": "I'm at the end of my tether with your company."
+        },
+        {
+          "text": "I'm done with this service"
+        },
+        {
+          "text": "I'm leaving this solar panel provider for another one."
+        },
+        {
+          "text": "I'm not interested in your service"
+        },
+        {
+          "text": "I would like to discontinue the services."
+        },
+        {
+          "text": "Remove us from the power grid"
+        },
+        {
+          "text": "Take down the utility"
+        },
+        {
+          "text": "Turn off my electricity supply."
+        },
+        {
+          "text": "Turn off my service."
+        },
+        {
+          "text": "We no longer wish to be connected to the grid"
+        },
+        {
+          "text": "We will not be for a few months. can you cut off energy during the holidays?"
+        }
+      ],
+      "description": "Stop a service."
+    },
+    {
+      "intent": "Utilities_Storm_Status",
+      "examples": [
+        {
+          "text": "Current storm info"
+        },
+        {
+          "text": "Does the storm affect us?"
+        },
+        {
+          "text": "Does the weather affect me?"
+        },
+        {
+          "text": "Do you know the expected duration of the flood?"
+        },
+        {
+          "text": "How long does the flood last?"
+        },
+        {
+          "text": "How's the weather going to be?"
+        },
+        {
+          "text": "It's possible be flooding there?"
+        },
+        {
+          "text": "I would like to know if the tornado is coming through my neighborhood."
+        },
+        {
+          "text": "Thunder near us"
+        },
+        {
+          "text": "To what extent is going to take before this end?"
+        },
+        {
+          "text": "What is the forecast in my area like?"
+        },
+        {
+          "text": "What is the projected path of the tornado?"
+        },
+        {
+          "text": "When is the hurricane after effects going to recede?"
+        },
+        {
+          "text": "When will the tides change?"
+        },
+        {
+          "text": "Where will the tornado contact be?"
+        },
+        {
+          "text": "Where will tornado hit?"
+        },
+        {
+          "text": "Will the area be flooded for long?"
+        },
+        {
+          "text": "Will the disaster affect this parish?"
+        },
+        {
+          "text": "Will the storm travel through my city?"
+        },
+        {
+          "text": "Will the weather hit here?"
+        }
+      ],
+      "description": "Request current storm information."
+    },
+    {
+      "intent": "Utilities_View_Usage",
+      "examples": [
+        {
+          "text": "Can you show me power consumption?"
+        },
+        {
+          "text": "Can you tell the quantity of energy use?"
+        },
+        {
+          "text": "Did my usage go up"
+        },
+        {
+          "text": "Did my usage increase"
+        },
+        {
+          "text": "How do I determine my electricity consumption?"
+        },
+        {
+          "text": "How do I get energy use reports?"
+        },
+        {
+          "text": "How much electricity did I utilize in the past week or so?"
+        },
+        {
+          "text": "How much electricity have I been consuming of late?"
+        },
+        {
+          "text": "How much electricity I am using?"
+        },
+        {
+          "text": "How much energy have I used in the past couple weeks?"
+        },
+        {
+          "text": "I'd like to view my home's power use"
+        },
+        {
+          "text": "Information on utility usage for a specific time"
+        },
+        {
+          "text": "Is there a statement for used power?"
+        },
+        {
+          "text": "May I see the electric meter readings"
+        },
+        {
+          "text": "What are my energy stats?"
+        },
+        {
+          "text": "What is my meter usage?"
+        },
+        {
+          "text": "What is my spent electricity amount for previous month?"
+        },
+        {
+          "text": "What was my electric usage this past month?"
+        },
+        {
+          "text": "Where can I see my utilities usage?"
+        },
+        {
+          "text": "Where do I find the relevant info concerning my power consumption?"
+        }
+      ],
+      "description": "Request details on energy use."
+    },
+    {
+      "intent": "valentines",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "wake",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "Wedding",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    },
+    {
+      "intent": "wife",
+      "examples": [
+        {
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "intent": "Yule",
+      "examples": [
+        {
+          "text": "occasion"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "location",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Montreal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Toronto",
+          "synonyms": [
+            "Avenue",
+            " Warden"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "It looks like we are not quite getting each other today. Would you like to\ntalk to a human agent instead? If so, please contact us at 0534343911 or\nemail us at  monaaldosari16\\@gmail.com. ."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_2_1625914911697",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Good bye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nice talking to you today.\n"
+              },
+              {
+                "text": "Have a nice day.\n"
+              },
+              {
+                "text": "Goodbye.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1625914911697",
+      "conditions": "#goodbyes",
+      "dialog_node": "node_10_1625917755851",
+      "previous_sibling": "node_2_1625917066470"
+    },
+    {
+      "type": "standard",
+      "title": "Our Locations",
+      "parent": "node_9_1625920092964",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "$city",
+      "dialog_node": "node_10_1625920574694"
+    },
+    {
+      "type": "folder",
+      "title": "Chitchat",
+      "conditions": "",
+      "dialog_node": "node_2_1625914911697",
+      "previous_sibling": "node_9_1626216366557"
+    },
+    {
+      "type": "standard",
+      "title": "Thank You",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You're welcome. Please let me know if you need anything else.\n"
+              },
+              {
+                "text": " My pleasure.\n"
+              },
+              {
+                "text": "No problem. Let me know if there is anything else I can help with."
+              },
+              {
+                "text": "I aim to please."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1625914911697",
+      "conditions": "#thank_you",
+      "dialog_node": "node_2_1625917066470",
+      "previous_sibling": "node_4_1625915012438"
+    },
+    {
+      "type": "standard",
+      "title": "No Location",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our hours of operations are listed on <a href=\"https://www.google.com.sa/?hl=ar\">our Hours page</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1625920092964",
+      "conditions": "true",
+      "dialog_node": "node_2_1625922572924",
+      "previous_sibling": "node_10_1625920574694"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi there. How can I help you?"
+              },
+              {
+                "text": "Hello. How may I assist you today?\n"
+              },
+              {
+                "text": "• Hi. What can I help you with?\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1625914911697",
+      "conditions": "#greetings",
+      "dialog_node": "node_4_1625915012438"
+    },
+    {
+      "type": "standard",
+      "title": "Assign City",
+      "output": {
+        "generic": []
+      },
+      "context": {
+        "city": "@location"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_9_1625920092964"
+      },
+      "conditions": "@location",
+      "dialog_node": "node_4_1626210998373",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "our lo unfo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "our location is near to C block street "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1626216366557",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1625915012438"
+      },
+      "conditions": "@location:Montreal",
+      "dialog_node": "node_6_1626216425281"
+    },
+    {
+      "type": "standard",
+      "title": "Hours of Operation ",
+      "output": {
+        "generic": []
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#hours_info",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1625920092964",
+      "previous_sibling": "node_4_1626210998373"
+    },
+    {
+      "type": "standard",
+      "title": "location info",
+      "conditions": "#location_info",
+      "dialog_node": "node_9_1626216366557",
+      "previous_sibling": "node_9_1625920092964"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our Calgary store is open Monday to Saturday from 9:50 am until 6 pm, except statutory holidays.)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1625920574694",
+      "conditions": "$city:Calgaty",
+      "dialog_node": "response_2_1626214852478",
+      "previous_sibling": "response_7_1625921351655"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our Montreal store is open Monday to Saturday from 9 am until 6 pm, except statutory holidays."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1625920574694",
+      "conditions": "$city:Montreal",
+      "dialog_node": "response_4_1625921289096"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our Vancouver store is open Monday to Saturday from 9 am until 6 pm, except statutory holidays.)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1625920574694",
+      "conditions": "$city:Vancouver",
+      "dialog_node": "response_4_1626214919008",
+      "previous_sibling": "response_2_1626214852478"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our Toronto store is open Monday to Saturday from 9 am until 6 pm, except statutory holidays.)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1625920574694",
+      "conditions": "$city:Toronto",
+      "dialog_node": "response_7_1625921351655",
+      "previous_sibling": "response_4_1625921289096"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. My name is Yara and I'm a chatbot here to assist you with your\nquestions about store hours, locations, as well as flower recommendations.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Flower shop skill",
+  "language": "en",
+  "description": ""
+}
