@@ -1,17 +1,20 @@
-# Flowerchop-chatbot
+# المساعد الالي واتسون 
 
 
+احد المهام المطلوبة في التدريب على رأس العمل في شركة الأساليب الذكية صيف ٢٠٢١، تم انشاء مساعد آلي باستخدام المساعد  اي بي ام واتسون لمساعدة زوار الموقع الإلكتروني لمعرفه ساعات العمل والموقع الجغرافي ومعلومات أخرى .
+##  المحتويات
+ 
+* صفحة ويب مرفق معها المساعد الالي باستخدام سكربت تم نسخه من الموقع الرسمي لأي بي ام واتسون 
+* ملف جيسون يحتوي البيانات الخاصة بالمساعد الآلي
 
-<script>
-  window.watsonAssistantChatOptions = {
-      integrationID: "827f31dc-b7a3-4b2f-a10c-b9a66f8e19a8", // The ID of this integration.
-      region: "eu-gb", // The region your integration is hosted in.
-      serviceInstanceID: "c79da26d-5fcd-43e4-8cb0-155745754965", // The ID of your service instance.
-      onLoad: function(instance) { instance.render(); }
-    };
-  setTimeout(function(){
-    const t=document.createElement('script');
-    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
-    document.head.appendChild(t);
-  });
-</script>
+### لدى المساعد مهاره واحد تحتوي على نوايا وكيان وحوار 
+
+## النوايا
+
+يوجد ٥ نوايا يعرفها المساعد كما هو موضح بالصورة
+
+## الكيان
+يحتوي على كيان  تم إنشائه يدويا ليحدد الأماكن التي يعرفها المساعد الالي
+## الحوار
+في الصور التالية شجرة عقد الحوار المكونة من خمس عقد للترحيب والمدن وساعات العمل والموقع  ومجلد يتضمن التحية والشكر والوداع
+## ديمو المساعد الآلي 
